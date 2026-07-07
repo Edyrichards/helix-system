@@ -1,0 +1,74 @@
+{
+  "brief": "Helix UI autonomy control surface: basic generator vs full design operating loop with visual verification",
+  "visual_mode": "browser",
+  "winner": {
+    "name": "Helix Design Operating Loop",
+    "description": "Design DNA extraction with tokens, Figma, Storybook, screenshots, mobile, desktop, WCAG, loading, empty, error states, variant critique, repair score evidence and handoff.",
+    "tokens": "palette typography spacing radius motion brand",
+    "interactions": "loading empty error success hover active focus",
+    "html": "<div style='font-family:system-ui;max-width:1000px;margin:0 auto'><nav style='display:flex;gap:16px;padding:16px;border-bottom:1px solid #ddd'><strong>Helix</strong><span>Design System</span></nav><main style='padding:32px'><h1 style='font-size:2.2rem'>Design DNA \u2192 Verified UI</h1><p>Tokens \u2022 Figma \u2022 Component registry \u2022 Storybook states \u2022 Playwright screenshots \u2022 Mobile + Desktop \u2022 WCAG contrast \u2022 Variant tournament \u2022 Repair loop \u2022 Evidence ledger \u2022 Handoff</p><div style='display:flex;gap:12px;margin:20px 0'><button style='padding:10px 18px;background:#111;color:white;border:0;border-radius:8px'>Run tournament</button><button style='padding:10px 18px;border:1px solid #ccc;border-radius:8px'>Open evidence</button></div><section style='display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:32px'><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Loading state</article><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Empty state</article><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Error state</article><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Success state</article></section></main></div>",
+    "visual_evidence": {
+      "visual_verified": true,
+      "desktop_screenshot": "02-helix-design-operating-loop-desktop.png",
+      "mobile_screenshot": "02-helix-design-operating-loop-mobile.png",
+      "console_errors": [],
+      "has_horizontal_overflow": false
+    },
+    "html_file": "02-helix-design-operating-loop.html",
+    "score": 103,
+    "breakdown": {
+      "design_dna": 10,
+      "visual_proof": 20,
+      "interaction_states": 10,
+      "agentic_loop": 10,
+      "anti_slop": 14
+    }
+  },
+  "variants": [
+    {
+      "name": "Helix Design Operating Loop",
+      "description": "Design DNA extraction with tokens, Figma, Storybook, screenshots, mobile, desktop, WCAG, loading, empty, error states, variant critique, repair score evidence and handoff.",
+      "tokens": "palette typography spacing radius motion brand",
+      "interactions": "loading empty error success hover active focus",
+      "html": "<div style='font-family:system-ui;max-width:1000px;margin:0 auto'><nav style='display:flex;gap:16px;padding:16px;border-bottom:1px solid #ddd'><strong>Helix</strong><span>Design System</span></nav><main style='padding:32px'><h1 style='font-size:2.2rem'>Design DNA \u2192 Verified UI</h1><p>Tokens \u2022 Figma \u2022 Component registry \u2022 Storybook states \u2022 Playwright screenshots \u2022 Mobile + Desktop \u2022 WCAG contrast \u2022 Variant tournament \u2022 Repair loop \u2022 Evidence ledger \u2022 Handoff</p><div style='display:flex;gap:12px;margin:20px 0'><button style='padding:10px 18px;background:#111;color:white;border:0;border-radius:8px'>Run tournament</button><button style='padding:10px 18px;border:1px solid #ccc;border-radius:8px'>Open evidence</button></div><section style='display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:32px'><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Loading state</article><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Empty state</article><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Error state</article><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Success state</article></section></main></div>",
+      "visual_evidence": {
+        "visual_verified": true,
+        "desktop_screenshot": "02-helix-design-operating-loop-desktop.png",
+        "mobile_screenshot": "02-helix-design-operating-loop-mobile.png",
+        "console_errors": [],
+        "has_horizontal_overflow": false
+      },
+      "html_file": "02-helix-design-operating-loop.html",
+      "score": 103,
+      "breakdown": {
+        "design_dna": 10,
+        "visual_proof": 20,
+        "interaction_states": 10,
+        "agentic_loop": 10,
+        "anti_slop": 14
+      }
+    },
+    {
+      "name": "Static Prompt UI",
+      "description": "A basic prompt-to-component interface with minimal structure.",
+      "html": "<main style='padding:40px;text-align:center'><h1>Generate UI</h1><p style='color:#666'>Describe what you need.</p><button style='padding:12px 24px'>Generate</button></main>",
+      "visual_evidence": {
+        "visual_verified": true,
+        "desktop_screenshot": "01-static-prompt-ui-desktop.png",
+        "mobile_screenshot": "01-static-prompt-ui-mobile.png",
+        "console_errors": [],
+        "has_horizontal_overflow": false
+      },
+      "html_file": "01-static-prompt-ui.html",
+      "score": 48,
+      "breakdown": {
+        "design_dna": 0,
+        "visual_proof": 14,
+        "interaction_states": 0,
+        "agentic_loop": 0,
+        "anti_slop": 10
+      }
+    }
+  ],
+  "generated_at": "2026-07-08T01:59:11.409176"
+}

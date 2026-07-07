@@ -1,0 +1,48 @@
+{
+  "brief": "Helix UI autonomy control surface: compare a basic generator with a design operating loop.",
+  "winner": {
+    "name": "Helix Design Operating Loop",
+    "description": "Design DNA extraction with tokens, Figma, Storybook, screenshots, mobile, desktop, WCAG, loading, empty, error states, variant critique, repair score evidence and handoff.",
+    "tokens": "palette typography spacing radius motion brand",
+    "interactions": "loading empty error success hover active focus",
+    "html": "<main><nav>Helix</nav><section><h1>Design DNA to verified UI</h1><p>Tokens, Figma, component registry, Storybook states, Playwright screenshots, mobile desktop checks, WCAG contrast, variant critique, repair score, evidence ledger, and handoff.</p><button>Run tournament</button><button>Open evidence</button></section><section><article>Loading state</article><article>Empty state</article><article>Error state</article><article>Success state</article></section></main>",
+    "score": 59,
+    "breakdown": {
+      "design_dna": 10,
+      "visual_proof": 10,
+      "interaction_states": 10,
+      "agentic_loop": 10,
+      "anti_slop": 6
+    }
+  },
+  "variants": [
+    {
+      "name": "Helix Design Operating Loop",
+      "description": "Design DNA extraction with tokens, Figma, Storybook, screenshots, mobile, desktop, WCAG, loading, empty, error states, variant critique, repair score evidence and handoff.",
+      "tokens": "palette typography spacing radius motion brand",
+      "interactions": "loading empty error success hover active focus",
+      "html": "<main><nav>Helix</nav><section><h1>Design DNA to verified UI</h1><p>Tokens, Figma, component registry, Storybook states, Playwright screenshots, mobile desktop checks, WCAG contrast, variant critique, repair score, evidence ledger, and handoff.</p><button>Run tournament</button><button>Open evidence</button></section><section><article>Loading state</article><article>Empty state</article><article>Error state</article><article>Success state</article></section></main>",
+      "score": 59,
+      "breakdown": {
+        "design_dna": 10,
+        "visual_proof": 10,
+        "interaction_states": 10,
+        "agentic_loop": 10,
+        "anti_slop": 6
+      }
+    },
+    {
+      "name": "Static Prompt UI",
+      "description": "A basic prompt-to-component interface.",
+      "html": "<main><h1>Generate UI</h1><p>Describe what you need.</p><button>Generate</button></main>",
+      "score": 6,
+      "breakdown": {
+        "design_dna": 0,
+        "visual_proof": 0,
+        "interaction_states": 0,
+        "agentic_loop": 0,
+        "anti_slop": 2
+      }
+    }
+  ]
+}

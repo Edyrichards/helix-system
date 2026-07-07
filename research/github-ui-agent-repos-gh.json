@@ -1,0 +1,306 @@
+[
+  {
+    "fullName": "abi/screenshot-to-code",
+    "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+    "stargazersCount": 73186,
+    "forksCount": 9013,
+    "updatedAt": "2026-07-07T17:21:29Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/abi/screenshot-to-code"
+  },
+  {
+    "fullName": "tldraw/tldraw",
+    "description": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
+    "stargazersCount": 48609,
+    "forksCount": 3361,
+    "updatedAt": "2026-07-07T20:03:56Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/tldraw/tldraw"
+  },
+  {
+    "fullName": "shadcn-ui/ui",
+    "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+    "stargazersCount": 118361,
+    "forksCount": 9274,
+    "updatedAt": "2026-07-07T20:34:51Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/shadcn-ui/ui"
+  },
+  {
+    "fullName": "browser-use/browser-use",
+    "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "stargazersCount": 103325,
+    "forksCount": 11434,
+    "updatedAt": "2026-07-07T20:35:34Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/browser-use/browser-use"
+  },
+  {
+    "fullName": "grab/cursor-talk-to-figma-mcp",
+    "description": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
+    "stargazersCount": 6882,
+    "forksCount": 748,
+    "updatedAt": "2026-07-07T15:24:22Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "url": "https://github.com/grab/cursor-talk-to-figma-mcp"
+  },
+  {
+    "fullName": "cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stargazersCount": 64417,
+    "forksCount": 6861,
+    "updatedAt": "2026-07-07T20:21:18Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/cline/cline"
+  },
+  {
+    "fullName": "vkhanhqui/figma-mcp-go",
+    "description": "Figma MCP for free users \u2014 no rate limits, full read/write, text to designs, designs to code",
+    "stargazersCount": 1286,
+    "forksCount": 193,
+    "updatedAt": "2026-07-07T19:38:17Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "url": "https://github.com/vkhanhqui/figma-mcp-go"
+  },
+  {
+    "fullName": "firecrawl/firecrawl",
+    "description": "The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+    "stargazersCount": 147167,
+    "forksCount": 8453,
+    "updatedAt": "2026-07-07T20:34:33Z",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "nickname": "GNU AGPLv3"
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/firecrawl/firecrawl"
+  },
+  {
+    "fullName": "modelcontextprotocol/servers",
+    "description": "Model Context Protocol Servers",
+    "stargazersCount": 88168,
+    "forksCount": 11176,
+    "updatedAt": "2026-07-07T19:28:25Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "fullName": "dyad-sh/dyad",
+    "description": "Local, open-source AI app builder for power users \u2728 v0 / Lovable / Replit / Bolt alternative \ud83c\udf1f Star if you like it!",
+    "stargazersCount": 20853,
+    "forksCount": 2501,
+    "updatedAt": "2026-07-07T20:03:29Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/dyad-sh/dyad"
+  },
+  {
+    "fullName": "microsoft/playwright-mcp",
+    "description": "Playwright MCP server",
+    "stargazersCount": 34808,
+    "forksCount": 2883,
+    "updatedAt": "2026-07-07T19:29:08Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/microsoft/playwright-mcp"
+  },
+  {
+    "fullName": "vercel/ai",
+    "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+    "stargazersCount": 25402,
+    "forksCount": 4728,
+    "updatedAt": "2026-07-07T20:25:47Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/vercel/ai"
+  },
+  {
+    "fullName": "BuilderIO/micro-agent",
+    "description": "An AI agent that writes (actually useful) code for you",
+    "stargazersCount": 4316,
+    "forksCount": 381,
+    "updatedAt": "2026-07-06T05:45:41Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/BuilderIO/micro-agent"
+  },
+  {
+    "fullName": "BuilderIO/gpt-crawler",
+    "description": "Crawl a site to generate knowledge files to create your own custom GPT from a URL",
+    "stargazersCount": 22259,
+    "forksCount": 2367,
+    "updatedAt": "2026-07-07T10:39:54Z",
+    "license": {
+      "key": "isc",
+      "name": "ISC License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/BuilderIO/gpt-crawler"
+  },
+  {
+    "fullName": "mastra-ai/mastra",
+    "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+    "stargazersCount": 25906,
+    "forksCount": 2373,
+    "updatedAt": "2026-07-07T20:29:22Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/mastra-ai/mastra"
+  },
+  {
+    "fullName": "continuedev/continue",
+    "description": "open-source coding agent",
+    "stargazersCount": 34730,
+    "forksCount": 4983,
+    "updatedAt": "2026-07-07T19:21:08Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/continuedev/continue"
+  },
+  {
+    "fullName": "wandb/openui",
+    "description": "OpenUI let's you describe UI using your imagination, then see it rendered live.",
+    "stargazersCount": 22453,
+    "forksCount": 2058,
+    "updatedAt": "2026-07-07T17:22:04Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/wandb/openui"
+  },
+  {
+    "fullName": "stackblitz/bolt.new",
+    "description": "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz",
+    "stargazersCount": 16446,
+    "forksCount": 14688,
+    "updatedAt": "2026-07-07T19:00:05Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/stackblitz/bolt.new"
+  },
+  {
+    "fullName": "langchain-ai/open-canvas",
+    "description": "\ud83d\udcc3 A better UX for chat, writing content, and coding with LLMs.",
+    "stargazersCount": 5482,
+    "forksCount": 867,
+    "updatedAt": "2026-07-07T10:36:17Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/langchain-ai/open-canvas"
+  }
+]

@@ -1,0 +1,1534 @@
+[
+  {
+    "fullName": "shadcn-ui/ui",
+    "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+    "stargazersCount": 118361,
+    "forksCount": 9274,
+    "updatedAt": "2026-07-07T20:34:51Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/shadcn-ui/ui"
+  },
+  {
+    "fullName": "mui/material-ui",
+    "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+    "stargazersCount": 98547,
+    "forksCount": 32596,
+    "updatedAt": "2026-07-07T17:34:50Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "language": "JavaScript",
+    "url": "https://github.com/mui/material-ui"
+  },
+  {
+    "fullName": "storybookjs/storybook",
+    "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
+    "stargazersCount": 90508,
+    "forksCount": 10184,
+    "updatedAt": "2026-07-07T19:19:03Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/storybookjs/storybook"
+  },
+  {
+    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "forksCount": 34798,
+    "fullName": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "language": "",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0"
+    },
+    "stargazersCount": 141651,
+    "updatedAt": "2026-07-07T20:12:18Z",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
+  },
+  {
+    "fullName": "abi/screenshot-to-code",
+    "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+    "stargazersCount": 73186,
+    "forksCount": 9013,
+    "updatedAt": "2026-07-07T17:21:29Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/abi/screenshot-to-code"
+  },
+  {
+    "fullName": "ant-design/ant-design",
+    "description": "An enterprise-class UI design language and React UI library",
+    "stargazersCount": 98601,
+    "forksCount": 54648,
+    "updatedAt": "2026-07-07T19:03:39Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/ant-design/ant-design"
+  },
+  {
+    "fullName": "browser-use/browser-use",
+    "description": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "stargazersCount": 103325,
+    "forksCount": 11434,
+    "updatedAt": "2026-07-07T20:35:34Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/browser-use/browser-use"
+  },
+  {
+    "fullName": "langgenius/dify",
+    "description": "Production-ready platform for agentic workflow development.",
+    "stargazersCount": 148076,
+    "forksCount": 23324,
+    "updatedAt": "2026-07-07T20:14:24Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/langgenius/dify"
+  },
+  {
+    "fullName": "firecrawl/firecrawl",
+    "description": "The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+    "stargazersCount": 147167,
+    "forksCount": 8453,
+    "updatedAt": "2026-07-07T20:34:33Z",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "nickname": "GNU AGPLv3"
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/firecrawl/firecrawl"
+  },
+  {
+    "fullName": "dyad-sh/dyad",
+    "description": "Local, open-source AI app builder for power users \u2728 v0 / Lovable / Replit / Bolt alternative \ud83c\udf1f Star if you like it!",
+    "stargazersCount": 20853,
+    "forksCount": 2501,
+    "updatedAt": "2026-07-07T20:03:29Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/dyad-sh/dyad"
+  },
+  {
+    "fullName": "modelcontextprotocol/servers",
+    "description": "Model Context Protocol Servers",
+    "stargazersCount": 88168,
+    "forksCount": 11176,
+    "updatedAt": "2026-07-07T19:28:25Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/modelcontextprotocol/servers"
+  },
+  {
+    "description": "Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Prototyping agent, design systems, wireframe renderer. SVG icon creator, dark mode toggle, responsive layout tool. Front-end code export, shadcn/ui integration, vector assets, branding assistant.",
+    "forksCount": 2,
+    "fullName": "mikesheehan54/Claude-Code-Design-AI",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 76,
+    "updatedAt": "2026-07-03T15:18:58Z",
+    "url": "https://github.com/mikesheehan54/Claude-Code-Design-AI"
+  },
+  {
+    "fullName": "lobehub/lobehub",
+    "description": "\ud83e\udd2f LobeHub is your Chief Agent Operator, organizing your agents into 7\u00d724 operations by hiring, scheduling, and reporting on your entire AI team.",
+    "stargazersCount": 79580,
+    "forksCount": 15561,
+    "updatedAt": "2026-07-07T20:24:03Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/lobehub/lobehub"
+  },
+  {
+    "fullName": "chakra-ui/chakra-ui",
+    "description": "Chakra UI is a component system for building SaaS products with speed \u26a1\ufe0f",
+    "stargazersCount": 40485,
+    "forksCount": 3624,
+    "updatedAt": "2026-07-07T19:53:48Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/chakra-ui/chakra-ui"
+  },
+  {
+    "description": "AI can draw UI directly on the Figma canvas via JavaScript, and read existing designs back as structured data. Works with Claude Code, Cursor, VS Code, and Windsurf. No API KEY required.",
+    "forksCount": 45,
+    "fullName": "TranHoaiHung/figma-ui-mcp",
+    "language": "JavaScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 216,
+    "updatedAt": "2026-07-07T19:20:51Z",
+    "url": "https://github.com/TranHoaiHung/figma-ui-mcp"
+  },
+  {
+    "description": "\ud83c\udfa8 Open-source design MCP server + shadcn/ui registry \u2014 AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma\u2026) + design tokens, UI principles & WCAG rules. Install any component with one command.",
+    "forksCount": 6,
+    "fullName": "marvkr/better-design",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 165,
+    "updatedAt": "2026-07-07T10:13:44Z",
+    "url": "https://github.com/marvkr/better-design"
+  },
+  {
+    "fullName": "tldraw/tldraw",
+    "description": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
+    "stargazersCount": 48609,
+    "forksCount": 3361,
+    "updatedAt": "2026-07-07T20:03:56Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/tldraw/tldraw"
+  },
+  {
+    "description": "Open-source components, blocks, and AI agents designed to speed up your workflow. Import them seamlessly into your favorite tools through Registry and MCPs.",
+    "forksCount": 4835,
+    "fullName": "creativetimofficial/ui",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 11945,
+    "updatedAt": "2026-07-07T20:11:43Z",
+    "url": "https://github.com/creativetimofficial/ui"
+  },
+  {
+    "fullName": "grab/cursor-talk-to-figma-mcp",
+    "description": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
+    "stargazersCount": 6882,
+    "forksCount": 748,
+    "updatedAt": "2026-07-07T15:24:22Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "url": "https://github.com/grab/cursor-talk-to-figma-mcp"
+  },
+  {
+    "fullName": "toeverything/AFFiNE",
+    "description": "There can be more than Notion and Miro. AFFiNE(pronounced [\u0259\u2018fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+    "stargazersCount": 70169,
+    "forksCount": 5025,
+    "updatedAt": "2026-07-07T20:24:38Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/toeverything/AFFiNE"
+  },
+  {
+    "fullName": "cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stargazersCount": 64417,
+    "forksCount": 6861,
+    "updatedAt": "2026-07-07T20:21:18Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/cline/cline"
+  },
+  {
+    "description": "Open-Source AI App Builder for Mobile \u2014 Build apps with AI like vibecodeapp, rork, lovable & bolt.new but fully open source. Describe what you want \u2192 AI builds it \u2192 Preview on your phone. Built with Claude Code, Expo, React Native, Convex, E2B.",
+    "forksCount": 34,
+    "fullName": "sa4hnd/vibra-code",
+    "language": "TypeScript",
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0"
+    },
+    "stargazersCount": 109,
+    "updatedAt": "2026-07-04T16:37:08Z",
+    "url": "https://github.com/sa4hnd/vibra-code"
+  },
+  {
+    "fullName": "AntonOsika/gpt-engineer",
+    "description": "CLI platform to experiment with codegen. Precursor to: https://lovable.dev",
+    "stargazersCount": 55197,
+    "forksCount": 7297,
+    "updatedAt": "2026-07-07T17:52:37Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "language": "Python",
+    "url": "https://github.com/AntonOsika/gpt-engineer"
+  },
+  {
+    "fullName": "vkhanhqui/figma-mcp-go",
+    "description": "Figma MCP for free users \u2014 no rate limits, full read/write, text to designs, designs to code",
+    "stargazersCount": 1286,
+    "forksCount": 193,
+    "updatedAt": "2026-07-07T19:38:17Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "Go"
+    },
+    "url": "https://github.com/vkhanhqui/figma-mcp-go"
+  },
+  {
+    "description": "A neural network that transforms a design mock-up into a static website.",
+    "forksCount": 1541,
+    "fullName": "emilwallner/Screenshot-to-code",
+    "language": "HTML",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stargazersCount": 16482,
+    "updatedAt": "2026-07-06T21:51:44Z",
+    "url": "https://github.com/emilwallner/Screenshot-to-code"
+  },
+  {
+    "description": "Generate design system documentation for your UI components, directly from your AI agent. Renders into Figma or a portable .md file. Works with Cursor, Claude Code, and Codex.",
+    "forksCount": 31,
+    "fullName": "redongreen/uSpec",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 228,
+    "updatedAt": "2026-07-07T12:53:39Z",
+    "url": "https://github.com/redongreen/uSpec"
+  },
+  {
+    "description": "A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation,compaitable with react,svelte 5,vue & React Native",
+    "forksCount": 294,
+    "fullName": "Jpisnice/shadcn-ui-mcp-server",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 2835,
+    "updatedAt": "2026-07-07T19:22:09Z",
+    "url": "https://github.com/Jpisnice/shadcn-ui-mcp-server"
+  },
+  {
+    "description": "A Model Context Protocol (MCP) that allows Claude Desktop and other AI tools (Claude Code, Cursor, Antigravity, etc.) to read, analyze, and modify Figma designs",
+    "forksCount": 118,
+    "fullName": "arinspunk/claude-talk-to-figma-mcp",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 625,
+    "updatedAt": "2026-07-07T09:44:05Z",
+    "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp"
+  },
+  {
+    "description": "Inspect, build, or extend Figma design systems from Claude Code. Read-only audits with WCAG checks and component scoring, build mode with variable bindings and slots, optional Phase 6 sync to tokens.css + AI rules.",
+    "forksCount": 4,
+    "fullName": "natdexterra/work-with-design-systems",
+    "language": "JavaScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 47,
+    "updatedAt": "2026-06-17T05:36:30Z",
+    "url": "https://github.com/natdexterra/work-with-design-systems"
+  },
+  {
+    "fullName": "BuilderIO/gpt-crawler",
+    "description": "Crawl a site to generate knowledge files to create your own custom GPT from a URL",
+    "stargazersCount": 22259,
+    "forksCount": 2367,
+    "updatedAt": "2026-07-07T10:39:54Z",
+    "license": {
+      "key": "isc",
+      "name": "ISC License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/BuilderIO/gpt-crawler"
+  },
+  {
+    "description": "Magic UI components, searchable and installable from your AI editor.",
+    "forksCount": 33,
+    "fullName": "magicuidesign/mcp",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 192,
+    "updatedAt": "2026-06-30T16:50:13Z",
+    "url": "https://github.com/magicuidesign/mcp"
+  },
+  {
+    "description": "An enforcement layer for Claude Code + Figma \u2014 4 skills that keep AI on your Design System rails. Components stay linked, tokens stay bound, nothing goes off-spec.",
+    "forksCount": 16,
+    "fullName": "senlindesign/claude2figma",
+    "language": "",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 174,
+    "updatedAt": "2026-07-07T03:36:32Z",
+    "url": "https://github.com/senlindesign/claude2figma"
+  },
+  {
+    "description": "Design superpowers for AI coding agents. 35 skills, 5 layers, 7 framework targets. Ideation, batch generation, design systems, iteration loops, and production conversion via Google Stitch MCP. Claude Code plugin + Codex CLI agent. The design intelligence layer your agent was missing.",
+    "forksCount": 5,
+    "fullName": "gabelul/stitch-kit",
+    "language": "JavaScript",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stargazersCount": 35,
+    "updatedAt": "2026-07-04T19:09:18Z",
+    "url": "https://github.com/gabelul/stitch-kit"
+  },
+  {
+    "description": "Claude Code skill: Generate design.md, design-guidelines.md & design-components.md from any design references \u2014 images, PDFs, links, screenshots. For AI-assisted coding (Cursor, Claude Code, Copilot)",
+    "forksCount": 0,
+    "fullName": "albertzhangz10/design-system-skill",
+    "language": "",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 23,
+    "updatedAt": "2026-06-30T13:42:20Z",
+    "url": "https://github.com/albertzhangz10/design-system-skill"
+  },
+  {
+    "description": "Minimalist developer portfolio using Next.js 14, React, TailwindCSS, Shadcn UI and Magic UI",
+    "forksCount": 397,
+    "fullName": "magicuidesign/portfolio",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 1412,
+    "updatedAt": "2026-07-07T15:54:01Z",
+    "url": "https://github.com/magicuidesign/portfolio"
+  },
+  {
+    "description": "Turn Claude into a Senior Design Architect \u2014 DTCG design tokens, 42 components, WCAG 2.2 accessibility, any-framework code, 138 design systems, and runnable skills.",
+    "forksCount": 35,
+    "fullName": "plugin87/ux-ui-agent-skills",
+    "language": "JavaScript",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stargazersCount": 442,
+    "updatedAt": "2026-07-06T13:18:49Z",
+    "url": "https://github.com/plugin87/ux-ui-agent-skills"
+  },
+  {
+    "description": "Generador de componentes de UI con IA",
+    "forksCount": 35,
+    "fullName": "midudev/openui.com",
+    "language": "JavaScript",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stargazersCount": 303,
+    "updatedAt": "2026-06-17T07:46:32Z",
+    "url": "https://github.com/midudev/openui.com"
+  },
+  {
+    "description": "Instantly create beautiful, responsive websites with AI. This AI-powered website builder transforms natural language prompts into fully functional React components using Next.js, Tailwind CSS, and Gemini AI. Features real-time collaboration with Convex backend, theme customization, and export-ready code.",
+    "forksCount": 97,
+    "fullName": "Ratna-Babu/Ai-Website-Builder",
+    "language": "JavaScript",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stargazersCount": 181,
+    "updatedAt": "2026-07-07T13:03:52Z",
+    "url": "https://github.com/Ratna-Babu/Ai-Website-Builder"
+  },
+  {
+    "description": "An open-source clone of v0.app with AI-powered React component generation",
+    "forksCount": 74,
+    "fullName": "SujalXplores/v0.diy",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 151,
+    "updatedAt": "2026-07-07T17:43:38Z",
+    "url": "https://github.com/SujalXplores/v0.diy"
+  },
+  {
+    "description": "AI-powered development toolkit with 7 production agents for React Native/Expo mobile apps. Automates   accessibility, design systems, security, performance, and testing. Built for Claude Code v2.0.5+",
+    "forksCount": 20,
+    "fullName": "senaiverse/reactnative-expo-ai-agent-system-workflow",
+    "language": "HTML",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 124,
+    "updatedAt": "2026-07-03T00:47:46Z",
+    "url": "https://github.com/senaiverse/reactnative-expo-ai-agent-system-workflow"
+  },
+  {
+    "fullName": "microsoft/playwright-mcp",
+    "description": "Playwright MCP server",
+    "stargazersCount": 34808,
+    "forksCount": 2883,
+    "updatedAt": "2026-07-07T19:29:08Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/microsoft/playwright-mcp"
+  },
+  {
+    "description": "ElevenLabs UI is a component library and custom registry built on top of shadcn/ui to help you build multimodal agents faster.",
+    "forksCount": 166,
+    "fullName": "elevenlabs/ui",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 2302,
+    "updatedAt": "2026-07-07T09:45:25Z",
+    "url": "https://github.com/elevenlabs/ui"
+  },
+  {
+    "description": "\ud83d\udcc3 Landing page UI components for React & Next.js, built on top of TailwindCSS",
+    "forksCount": 96,
+    "fullName": "PageAI-Pro/page-ui",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 1665,
+    "updatedAt": "2026-07-06T06:56:04Z",
+    "url": "https://github.com/PageAI-Pro/page-ui"
+  },
+  {
+    "fullName": "BuilderIO/builder",
+    "description": "Visual Development for React, Vue, Svelte, Qwik, and more",
+    "stargazersCount": 8763,
+    "forksCount": 1152,
+    "updatedAt": "2026-07-07T05:16:58Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/BuilderIO/builder"
+  },
+  {
+    "description": "ElevenLabs UI Vue is a component library and custom registry built on top of shadcn-vue to help you build multimodal agents faster.",
+    "forksCount": 11,
+    "fullName": "vuepont/elevenlabs-ui-vue",
+    "language": "Vue",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 195,
+    "updatedAt": "2026-06-23T07:30:03Z",
+    "url": "https://github.com/vuepont/elevenlabs-ui-vue"
+  },
+  {
+    "description": "A visual-regression studio for Expo / React Native UI components: deterministic examples generate Storybook stories and Chromatic baselines, one component tree renders on iOS, Android, and Web. Not a component library.",
+    "forksCount": 32,
+    "fullName": "Ge-limin/shad-expo-studio",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 177,
+    "updatedAt": "2026-07-07T04:17:05Z",
+    "url": "https://github.com/Ge-limin/shad-expo-studio"
+  },
+  {
+    "description": "Design in Figma with Claude Code. Bridge connects your terminal to the Figma Plugin API via WebSocket.",
+    "forksCount": 13,
+    "fullName": "noemuch/bridge",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 152,
+    "updatedAt": "2026-06-25T23:27:16Z",
+    "url": "https://github.com/noemuch/bridge"
+  },
+  {
+    "description": "Figma to design.md \u2014 Convert Figma design tokens into structured design.md for AI-assisted coding (Cursor, Claude Code, Copilot)",
+    "forksCount": 2,
+    "fullName": "albertzhangz10/figma-design-system-to-design-md",
+    "language": "",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 35,
+    "updatedAt": "2026-07-06T12:02:31Z",
+    "url": "https://github.com/albertzhangz10/figma-design-system-to-design-md"
+  },
+  {
+    "fullName": "payloadcms/payload",
+    "description": "Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.",
+    "stargazersCount": 43441,
+    "forksCount": 3879,
+    "updatedAt": "2026-07-07T20:06:41Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/payloadcms/payload"
+  },
+  {
+    "fullName": "plasmicapp/plasmic",
+    "description": "Visual builder for React. Build apps, websites, and content. Integrate with your codebase.",
+    "stargazersCount": 6900,
+    "forksCount": 698,
+    "updatedAt": "2026-07-07T17:57:29Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/plasmicapp/plasmic"
+  },
+  {
+    "description": "AI Elements is a component library and custom registry built on top of shadcn/ui to help you build AI-native applications faster.",
+    "forksCount": 251,
+    "fullName": "vercel/ai-elements",
+    "language": "TypeScript",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stargazersCount": 2190,
+    "updatedAt": "2026-07-07T14:07:54Z",
+    "url": "https://github.com/vercel/ai-elements"
+  },
+  {
+    "description": "Svelte Magic UI, Svelte Aceternity UI, Svelte Components build using Tailwind CSS & Framer Motion",
+    "forksCount": 46,
+    "fullName": "SikandarJODD/svelte-animations",
+    "language": "Svelte",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 1203,
+    "updatedAt": "2026-07-04T22:23:30Z",
+    "url": "https://github.com/SikandarJODD/svelte-animations"
+  },
+  {
+    "description": "AI Elements Vue is a component library built on top of shadcn-vue to help you build AI-native applications faster.",
+    "forksCount": 92,
+    "fullName": "vuepont/ai-elements-vue",
+    "language": "Vue",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stargazersCount": 1085,
+    "updatedAt": "2026-07-07T09:45:20Z",
+    "url": "https://github.com/vuepont/ai-elements-vue"
+  },
+  {
+    "description": "Spectrum UI \u2b50 is a collection of re-usable components built using Aceternity UI Magic UI and ShadCN UI that you can copy and paste into your apps.",
+    "forksCount": 98,
+    "fullName": "arihantcodes/spectrum-ui",
+    "language": "TypeScript",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stargazersCount": 1003,
+    "updatedAt": "2026-07-07T18:44:29Z",
+    "url": "https://github.com/arihantcodes/spectrum-ui"
+  },
+  {
+    "description": "Design engine for Claude Code, Codex & Cursor \u2014 teaches design judgment, not just data. 74 rules, 48 components, 7 brand skins (Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel), a named motion system (5 seeds + 20+ moves), 15 /ss-* skills. Stop shipping AI UI that looks generated. MIT.",
+    "forksCount": 64,
+    "fullName": "bitjaru/styleseed",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 654,
+    "updatedAt": "2026-07-07T17:28:40Z",
+    "url": "https://github.com/bitjaru/styleseed"
+  },
+  {
+    "description": "Open source Website Builder for React JS frameworks",
+    "forksCount": 72,
+    "fullName": "chaibuilder/sdk",
+    "language": "TypeScript",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "url": "https://api.github.com/licenses/bsd-3-clause"
+    },
+    "stargazersCount": 456,
+    "updatedAt": "2026-07-07T09:42:13Z",
+    "url": "https://github.com/chaibuilder/sdk"
+  },
+  {
+    "description": "Leverage the OpenAI Realtime API (12-17-2024) with this Next.js 15 starter template featuring shadcn/ui components, tool-calling & localization. Use starter to build Voice AI apps with WebRTC.",
+    "forksCount": 90,
+    "fullName": "cameronking4/openai-realtime-api-nextjs",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 445,
+    "updatedAt": "2026-06-22T05:24:43Z",
+    "url": "https://github.com/cameronking4/openai-realtime-api-nextjs"
+  },
+  {
+    "description": "\u504f\u6267\u578b\u8bbe\u8ba1\u987e\u95ee\uff1a\u53cd AI \u5473\u8bbe\u8ba1 + \u98ce\u683c\u8bd5\u8863\u95f4 + 58 \u7ad9\u8bbe\u8ba1\u7cfb\u7edf\u5e93\u7684 Claude Code Skill | Opinionated design advisor for Claude Code: anti-generic UI, style fitting room, 58 real-site design systems.",
+    "forksCount": 33,
+    "fullName": "joeseesun/qiaomu-design",
+    "language": "JavaScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 344,
+    "updatedAt": "2026-07-07T20:16:28Z",
+    "url": "https://github.com/joeseesun/qiaomu-design"
+  },
+  {
+    "fullName": "BuilderIO/micro-agent",
+    "description": "An AI agent that writes (actually useful) code for you",
+    "stargazersCount": 4316,
+    "forksCount": 381,
+    "updatedAt": "2026-07-06T05:45:41Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/BuilderIO/micro-agent"
+  },
+  {
+    "description": "Give your AI coding agent a design system. One command installs 300+ hand-verified company DESIGN.md references + skills into Claude Code, Codex, Cursor, and OpenCode. Free, MIT, zero AI calls.",
+    "forksCount": 26,
+    "fullName": "kwakseongjae/oh-my-design",
+    "language": "HTML",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 304,
+    "updatedAt": "2026-07-07T05:00:47Z",
+    "url": "https://github.com/kwakseongjae/oh-my-design"
+  },
+  {
+    "description": "Install AI tools and UI components for the AI SDK via the shadcn registry",
+    "forksCount": 10,
+    "fullName": "xn1cklas/ai-tools-registry",
+    "language": "TypeScript",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stargazersCount": 205,
+    "updatedAt": "2026-05-30T06:34:39Z",
+    "url": "https://github.com/xn1cklas/ai-tools-registry"
+  },
+  {
+    "description": "CodinIT.dev Demo | Open-source, AI app builder prototype \ud83c\udf1f Star to support the project!",
+    "forksCount": 73,
+    "fullName": "Gerome-Elassaad/CodingIT",
+    "language": "TypeScript",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stargazersCount": 173,
+    "updatedAt": "2026-07-03T01:51:13Z",
+    "url": "https://github.com/Gerome-Elassaad/CodingIT"
+  },
+  {
+    "description": "\u4eba\u9593\u306b\u3082\u3001AI\u306b\u3082\u3001\u8aad\u3081\u308b\u30c7\u30b6\u30a4\u30f3\u30b7\u30b9\u30c6\u30e0 \u2014 AI-Ready Design System for Claude Code & Cursor",
+    "forksCount": 18,
+    "fullName": "tsubotax/melta-ui",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 166,
+    "updatedAt": "2026-07-07T19:08:35Z",
+    "url": "https://github.com/tsubotax/melta-ui"
+  },
+  {
+    "description": "Voice AI components using OpenAI Realtime API to copy and paste into your Nextjs projects built with TailwindCSS for building modern Voice AI applications with WebRTC.",
+    "forksCount": 13,
+    "fullName": "cameronking4/openai-realtime-blocks",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 118,
+    "updatedAt": "2026-06-11T07:55:03Z",
+    "url": "https://github.com/cameronking4/openai-realtime-blocks"
+  },
+  {
+    "description": "Stop Claude Code/Cursor from guessing UI. Extract any website design system into a Stitch-ready DESIGN.md.",
+    "forksCount": 4,
+    "fullName": "yuvrajangadsingh/brandmd",
+    "language": "JavaScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 36,
+    "updatedAt": "2026-07-06T11:30:19Z",
+    "url": "https://github.com/yuvrajangadsingh/brandmd"
+  },
+  {
+    "description": "Core building blocks for AI apps.  High-quality, accessible, and customizable components for AI interfaces.",
+    "forksCount": 157,
+    "fullName": "ibelick/prompt-kit",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 2906,
+    "updatedAt": "2026-07-06T15:37:32Z",
+    "url": "https://github.com/ibelick/prompt-kit"
+  },
+  {
+    "description": "Stream AI generated Shadcn components, not just text.",
+    "forksCount": 21,
+    "fullName": "CopilotKit/shadify",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 255,
+    "updatedAt": "2026-07-02T19:39:00Z",
+    "url": "https://github.com/CopilotKit/shadify"
+  },
+  {
+    "description": "Local-First Open Source web & mobile AI app builder \u2014 install on MacOS, Windows & Linux",
+    "forksCount": 79,
+    "fullName": "codinit-dev/codinit-dev",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 253,
+    "updatedAt": "2026-07-01T20:06:07Z",
+    "url": "https://github.com/codinit-dev/codinit-dev"
+  },
+  {
+    "description": "Your own Gen UI platform. Create components or whole frontend with your fav LLM",
+    "forksCount": 18,
+    "fullName": "grillsdev/grills",
+    "language": "TypeScript",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stargazersCount": 104,
+    "updatedAt": "2026-06-29T05:40:14Z",
+    "url": "https://github.com/grillsdev/grills"
+  },
+  {
+    "description": "HTML slide deck system with design system, viewer, and PDF export. AI-native via Claude Code.",
+    "forksCount": 9,
+    "fullName": "rsarver/stella-decks",
+    "language": "CSS",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 68,
+    "updatedAt": "2026-06-02T16:33:50Z",
+    "url": "https://github.com/rsarver/stella-decks"
+  },
+  {
+    "description": "Claude Code plugin: Generate elegant HTML presentations with Reveal.js and Autonomee.ai design system",
+    "forksCount": 3,
+    "fullName": "godagoo/reveal-presentations",
+    "language": "CSS",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stargazersCount": 16,
+    "updatedAt": "2026-03-31T12:30:19Z",
+    "url": "https://github.com/godagoo/reveal-presentations"
+  },
+  {
+    "fullName": "continuedev/continue",
+    "description": "open-source coding agent",
+    "stargazersCount": 34730,
+    "forksCount": 4983,
+    "updatedAt": "2026-07-07T19:21:08Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/continuedev/continue"
+  },
+  {
+    "fullName": "wandb/openui",
+    "description": "OpenUI let's you describe UI using your imagination, then see it rendered live.",
+    "stargazersCount": 22453,
+    "forksCount": 2058,
+    "updatedAt": "2026-07-07T17:22:04Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/wandb/openui"
+  },
+  {
+    "description": "we0 is an AI code editor for development programmers and product managers. same v0, bolt.new,lovable",
+    "forksCount": 137,
+    "fullName": "we0-dev/we0",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 924,
+    "updatedAt": "2026-07-03T19:34:36Z",
+    "url": "https://github.com/we0-dev/we0"
+  },
+  {
+    "description": "Open Source Alternative to Lovable, v0, Bolt, Replit, Emergent. \ud83c\udf1f Star if you like it!  ",
+    "forksCount": 59,
+    "fullName": "Jamessdevops/micracode",
+    "language": "Rust",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 232,
+    "updatedAt": "2026-07-03T17:49:38Z",
+    "url": "https://github.com/Jamessdevops/micracode"
+  },
+  {
+    "fullName": "Pythagora-io/gpt-pilot",
+    "description": "The first real AI developer",
+    "stargazersCount": 33732,
+    "forksCount": 3477,
+    "updatedAt": "2026-07-07T00:39:20Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "language": "Python",
+    "url": "https://github.com/Pythagora-io/gpt-pilot"
+  },
+  {
+    "fullName": "vercel/ai",
+    "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+    "stargazersCount": 25402,
+    "forksCount": 4728,
+    "updatedAt": "2026-07-07T20:25:47Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/vercel/ai"
+  },
+  {
+    "fullName": "mastra-ai/mastra",
+    "description": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+    "stargazersCount": 25906,
+    "forksCount": 2373,
+    "updatedAt": "2026-07-07T20:29:22Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/mastra-ai/mastra"
+  },
+  {
+    "fullName": "21st-dev/magic-mcp",
+    "description": "It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic",
+    "stargazersCount": 5343,
+    "forksCount": 393,
+    "updatedAt": "2026-07-07T19:30:26Z",
+    "license": null,
+    "language": "TypeScript",
+    "url": "https://github.com/21st-dev/magic-mcp"
+  },
+  {
+    "fullName": "reflex-dev/reflex",
+    "description": "\ud83d\udd78\ufe0f Web apps in pure Python \ud83d\udc0d",
+    "stargazersCount": 28640,
+    "forksCount": 1746,
+    "updatedAt": "2026-07-07T20:21:54Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "language": "Python",
+    "url": "https://github.com/reflex-dev/reflex"
+  },
+  {
+    "fullName": "stackblitz/bolt.new",
+    "description": "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz",
+    "stargazersCount": 16446,
+    "forksCount": 14688,
+    "updatedAt": "2026-07-07T19:00:05Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/stackblitz/bolt.new"
+  },
+  {
+    "description": "The Open Standard for Generative UI",
+    "forksCount": 570,
+    "fullName": "thesysdev/openui",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 7817,
+    "updatedAt": "2026-07-07T20:13:14Z",
+    "url": "https://github.com/thesysdev/openui"
+  },
+  {
+    "description": "OpenUI5 lets you build enterprise-ready web applications, responsive to all devices, running on almost any browser of your choice.",
+    "forksCount": 1273,
+    "fullName": "UI5/openui5",
+    "language": "JavaScript",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stargazersCount": 3296,
+    "updatedAt": "2026-07-07T19:52:39Z",
+    "url": "https://github.com/UI5/openui5"
+  },
+  {
+    "description": "AI command center for your AI coding agents. 100% local, free, opensource.",
+    "forksCount": 35,
+    "fullName": "Fallomai/openui",
+    "language": "TypeScript",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stargazersCount": 160,
+    "updatedAt": "2026-07-07T17:58:08Z",
+    "url": "https://github.com/Fallomai/openui"
+  },
+  {
+    "description": "Research-first design skill for AI agents. 150K+ real app screens and flows via Refero MCP.",
+    "forksCount": 11,
+    "fullName": "referodesign/refero_skill",
+    "language": "",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 151,
+    "updatedAt": "2026-07-07T10:30:37Z",
+    "url": "https://github.com/referodesign/refero_skill"
+  },
+  {
+    "description": "Run Claude Design locally as an Agent Skill \u2014 Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
+    "forksCount": 184,
+    "fullName": "JimLiu/baoyu-design",
+    "language": "JavaScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 2467,
+    "updatedAt": "2026-07-07T17:57:08Z",
+    "url": "https://github.com/JimLiu/baoyu-design"
+  },
+  {
+    "description": "Your infinite canvas workspace for agents, tasks, knowledge, and research. An infinite canvas for Claude Code, Codex, terminals, tasks, and notes.",
+    "forksCount": 125,
+    "fullName": "DeadWaveWave/opencove",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 1487,
+    "updatedAt": "2026-07-07T02:40:17Z",
+    "url": "https://github.com/DeadWaveWave/opencove"
+  },
+  {
+    "fullName": "langchain-ai/open-canvas",
+    "description": "\ud83d\udcc3 A better UX for chat, writing content, and coding with LLMs.",
+    "stargazersCount": 5482,
+    "forksCount": 867,
+    "updatedAt": "2026-07-07T10:36:17Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/langchain-ai/open-canvas"
+  },
+  {
+    "fullName": "supabase/mcp",
+    "description": "Connect Supabase to your AI assistants",
+    "stargazersCount": 2789,
+    "forksCount": 377,
+    "updatedAt": "2026-07-07T10:36:38Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/supabase/mcp"
+  },
+  {
+    "fullName": "miurla/morphic",
+    "description": "An AI-powered search engine with a generative UI",
+    "stargazersCount": 8963,
+    "forksCount": 2340,
+    "updatedAt": "2026-07-07T00:34:12Z",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/miurla/morphic"
+  },
+  {
+    "description": "Design-focused Agent Skills for Claude Code: UI/UX, interface design, typography, and motion. Emil Kowalski-inspired.",
+    "forksCount": 0,
+    "fullName": "master5d/claude-design-skills",
+    "language": "",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stargazersCount": 11,
+    "updatedAt": "2026-07-01T01:26:27Z",
+    "url": "https://github.com/master5d/claude-design-skills"
+  },
+  {
+    "fullName": "glideapps/glide-data-grid",
+    "description": "\ud83d\ude80 Glide Data Grid is a no compromise, outrageously fast react data grid with rich rendering, first class accessibility, and full TypeScript support.",
+    "stargazersCount": 5249,
+    "forksCount": 414,
+    "updatedAt": "2026-07-07T16:42:34Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/glideapps/glide-data-grid"
+  },
+  {
+    "description": "Svelte 5 Animations includes Magic UI, Spell UI build using Tailwind CSS & Motion SV",
+    "forksCount": 12,
+    "fullName": "SikandarJODD/animations",
+    "language": "Svelte",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 273,
+    "updatedAt": "2026-07-07T07:09:22Z",
+    "url": "https://github.com/SikandarJODD/animations"
+  },
+  {
+    "description": "A modern, responsive portfolio website built with Next.js 14, TypeScript, Tailwind CSS, Magic UI and Framer Motion.",
+    "forksCount": 18,
+    "fullName": "StarKnightt/prasendev",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 202,
+    "updatedAt": "2026-07-05T08:15:26Z",
+    "url": "https://github.com/StarKnightt/prasendev"
+  },
+  {
+    "description": "An ultra-modern, visually-rich, bento ui using Next.js, PocketBase, shadcd/ui, tailwind css, magic-ui, and zod.",
+    "forksCount": 18,
+    "fullName": "engageintellect/cook",
+    "language": "TypeScript",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stargazersCount": 200,
+    "updatedAt": "2026-06-29T02:05:40Z",
+    "url": "https://github.com/engageintellect/cook"
+  },
+  {
+    "description": "AI coding agent in your browser",
+    "forksCount": 18,
+    "fullName": "BrandeisPatrick/blankspace",
+    "language": "JavaScript",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "url": "https://api.github.com/licenses/apache-2.0"
+    },
+    "stargazersCount": 110,
+    "updatedAt": "2026-07-07T09:45:46Z",
+    "url": "https://github.com/BrandeisPatrick/blankspace"
+  },
+  {
+    "description": "Agent skills for fallow, codebase intelligence for TypeScript and JavaScript. Teaches AI agents how to find unused code, duplication, circular deps, complexity hotspots, architecture drift, design-system drift, and (with Fallow Runtime) hot-path and cold-path evidence. Works with Claude Code, Cursor, Codex, Gemini CLI, and 30+ agents.",
+    "forksCount": 6,
+    "fullName": "fallow-rs/fallow-skills",
+    "language": "Shell",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 101,
+    "updatedAt": "2026-07-06T09:30:03Z",
+    "url": "https://github.com/fallow-rs/fallow-skills"
+  },
+  {
+    "description": "Local, model-agnostic image-generation studio for Apple silicon (MLX). Clean Claude-design UI; ships with the Krea 2 Turbo pure-MLX backend.",
+    "forksCount": 4,
+    "fullName": "avlp12/alis-studio",
+    "language": "Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stargazersCount": 23,
+    "updatedAt": "2026-07-07T13:59:51Z",
+    "url": "https://github.com/avlp12/alis-studio"
+  },
+  {
+    "description": "Minimalist Developer Portfolio Template using Svelte, Inspired from Magic UI",
+    "forksCount": 29,
+    "fullName": "SikandarJODD/portfolio-template",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 139,
+    "updatedAt": "2026-06-26T05:08:17Z",
+    "url": "https://github.com/SikandarJODD/portfolio-template"
+  },
+  {
+    "description": "Start Up Template Inspired from Magic UI",
+    "forksCount": 20,
+    "fullName": "SikandarJODD/startup-template",
+    "language": "Svelte",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 106,
+    "updatedAt": "2026-07-01T00:14:27Z",
+    "url": "https://github.com/SikandarJODD/startup-template"
+  },
+  {
+    "description": "A Claude skill that audits designs against 19 professional design rules.",
+    "forksCount": 13,
+    "fullName": "Ashutos1997/claude-design-auditor-skill",
+    "language": "",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stargazersCount": 62,
+    "updatedAt": "2026-07-07T07:26:03Z",
+    "url": "https://github.com/Ashutos1997/claude-design-auditor-skill"
+  },
+  {
+    "description": "Firefox extension that extracts styles from any websites and generates DESIGN.md and SKILL.md files for Google Stitch, Claude Design, Codex and Cursor",
+    "forksCount": 0,
+    "fullName": "bergside/design-md-firefox",
+    "language": "JavaScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 11,
+    "updatedAt": "2026-06-30T16:58:40Z",
+    "url": "https://github.com/bergside/design-md-firefox"
+  },
+  {
+    "fullName": "originjs/vite-plugin-federation",
+    "description": "Module Federation for vite & rollup",
+    "stargazersCount": 3034,
+    "forksCount": 294,
+    "updatedAt": "2026-07-06T21:51:49Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "language": "TypeScript",
+    "url": "https://github.com/originjs/vite-plugin-federation"
+  },
+  {
+    "description": "Awesome Claude Design: 68 ready-to-use design system inspirations in DESIGN.md format. Drop one in, scaffold a full UI in one shot.",
+    "forksCount": 329,
+    "fullName": "VoltAgent/awesome-claude-design",
+    "language": "",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 3023,
+    "updatedAt": "2026-07-07T20:05:56Z",
+    "url": "https://github.com/VoltAgent/awesome-claude-design"
+  },
+  {
+    "description": "DESIGN.md for Terminal UI \u2014 curated TUI design systems for AI coding agents. Source-code-level research from Claude Code, Lazygit, btop, k9s and more.",
+    "forksCount": 2,
+    "fullName": "cola-runner/awesome-tui-design",
+    "language": "Python",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 19,
+    "updatedAt": "2026-07-06T22:57:45Z",
+    "url": "https://github.com/cola-runner/awesome-tui-design"
+  },
+  {
+    "description": "Curated list of awesome AI tools to build beautiful UI/UX.",
+    "forksCount": 63,
+    "fullName": "maxbogo/awesome-ai-tools-for-ui",
+    "language": "",
+    "license": {
+      "key": "",
+      "name": "",
+      "url": ""
+    },
+    "stargazersCount": 725,
+    "updatedAt": "2026-07-07T17:35:54Z",
+    "url": "https://github.com/maxbogo/awesome-ai-tools-for-ui"
+  },
+  {
+    "description": "Become 10x Vibe Coder. Awesome Vibe Coding guide, best practices, and tips for efficient and controlled AI assisted coding.",
+    "forksCount": 67,
+    "fullName": "analyticalrohit/awesome-vibe-coding-guide",
+    "language": "",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 359,
+    "updatedAt": "2026-07-02T13:02:17Z",
+    "url": "https://github.com/analyticalrohit/awesome-vibe-coding-guide"
+  }
+]

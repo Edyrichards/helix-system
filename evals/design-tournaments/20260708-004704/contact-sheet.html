@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Helix Design Tournament</title>
+<style>
+:root { color-scheme: dark; --bg:#09090b; --panel:#15151a; --line:#2a2a32; --text:#f4f4f5; --muted:#a1a1aa; --accent:#7dd3fc; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif; background:var(--bg); color:var(--text); }
+main { max-width: 1500px; margin: 0 auto; padding: 32px; }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 20px; }
+.card { border:1px solid var(--line); background:var(--panel); border-radius:20px; overflow:hidden; }
+.card > header { display:flex; justify-content:space-between; gap:16px; padding:14px 16px; border-bottom:1px solid var(--line); color:var(--muted); }
+.card strong { color:var(--text); }
+.card b { color:var(--accent); }
+.frame { min-height:260px; background:white; color:#111; padding:18px; overflow:auto; }
+pre { white-space:pre-wrap; color:var(--muted); padding:14px 16px; margin:0; border-top:1px solid var(--line); }
+.hero { margin-bottom: 24px; }
+.hero p { color: var(--muted); max-width: 80ch; }
+</style>
+</head>
+<body><main>
+<section class="hero"><h1>Helix Design Tournament</h1><p>Helix UI autonomy control surface: compare a basic generator with a design operating loop.</p></section>
+<section class="grid">
+            <article class="card">
+              <header><span>#1</span><strong>Helix Design Operating Loop</strong><b>59 pts</b></header>
+              <div class="frame"><main><nav>Helix</nav><section><h1>Design DNA to verified UI</h1><p>Tokens, Figma, component registry, Storybook states, Playwright screenshots, mobile desktop checks, WCAG contrast, variant critique, repair score, evidence ledger, and handoff.</p><button>Run tournament</button><button>Open evidence</button></section><section><article>Loading state</article><article>Empty state</article><article>Error state</article><article>Success state</article></section></main></div>
+              <pre>{
+  &quot;design_dna&quot;: 10,
+  &quot;visual_proof&quot;: 10,
+  &quot;interaction_states&quot;: 10,
+  &quot;agentic_loop&quot;: 10,
+  &quot;anti_slop&quot;: 6
+}</pre>
+            </article>
+            
+            <article class="card">
+              <header><span>#2</span><strong>Static Prompt UI</strong><b>6 pts</b></header>
+              <div class="frame"><main><h1>Generate UI</h1><p>Describe what you need.</p><button>Generate</button></main></div>
+              <pre>{
+  &quot;design_dna&quot;: 0,
+  &quot;visual_proof&quot;: 0,
+  &quot;interaction_states&quot;: 0,
+  &quot;agentic_loop&quot;: 0,
+  &quot;anti_slop&quot;: 2
+}</pre>
+            </article>
+            </section>
+</main></body></html>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Helix Design Tournament</title>
+<style>
+:root { color-scheme: dark; --bg:#09090b; --panel:#15151a; --line:#2a2a32; --text:#f4f4f5; --muted:#a1a1aa; --accent:#7dd3fc; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif; background:var(--bg); color:var(--text); }
+main { max-width: 1600px; margin: 0 auto; padding: 32px; }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 20px; }
+.card { border:1px solid var(--line); background:var(--panel); border-radius:20px; overflow:hidden; }
+.card > header { display:flex; justify-content:space-between; gap:16px; padding:14px 16px; border-bottom:1px solid var(--line); color:var(--muted); }
+.card strong { color:var(--text); }
+.card b { color:var(--accent); }
+.frame { min-height:220px; background:white; color:#111; padding:18px; overflow:auto; border-bottom:1px solid var(--line); }
+.shots { display:flex; gap:12px; padding:12px; background:#0f0f12; }
+.shots img { max-width:100%; border:1px solid var(--line); border-radius:8px; }
+.meta { padding:8px 16px; font-size:12px; color:var(--muted); display:flex; gap:16px; align-items:center; }
+pre { white-space:pre-wrap; color:var(--muted); padding:14px 16px; margin:0; border-top:1px solid var(--line); font-size:12px; }
+.hero { margin-bottom: 24px; }
+.hero p { color: var(--muted); max-width: 80ch; }
+</style>
+</head>
+<body>
+<main>
+<section class="hero"><h1>Helix Design Tournament</h1><p>Helix UI autonomy control surface: basic generator vs full design operating loop with visual verification</p><p><small>visual mode: browser</small></p></section>
+<section class="grid">
+        <article class="card">
+          <header>
+            <span>#1</span>
+            <strong>Helix Design Operating Loop</strong>
+            <b>103 pts</b>
+          </header>
+          <div class="frame"><div style='font-family:system-ui;max-width:1000px;margin:0 auto'><nav style='display:flex;gap:16px;padding:16px;border-bottom:1px solid #ddd'><strong>Helix</strong><span>Design System</span></nav><main style='padding:32px'><h1 style='font-size:2.2rem'>Design DNA → Verified UI</h1><p>Tokens • Figma • Component registry • Storybook states • Playwright screenshots • Mobile + Desktop • WCAG contrast • Variant tournament • Repair loop • Evidence ledger • Handoff</p><div style='display:flex;gap:12px;margin:20px 0'><button style='padding:10px 18px;background:#111;color:white;border:0;border-radius:8px'>Run tournament</button><button style='padding:10px 18px;border:1px solid #ccc;border-radius:8px'>Open evidence</button></div><section style='display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:32px'><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Loading state</article><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Empty state</article><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Error state</article><article style='border:1px solid #eee;padding:16px;border-radius:12px'>Success state</article></section></main></div></div>
+          <div class="shots"><div><small>Desktop</small><br><img src="02-helix-design-operating-loop-desktop.png" alt="desktop"></div><div><small>Mobile</small><br><img src="02-helix-design-operating-loop-mobile.png" alt="mobile"></div></div>
+          <div class="meta">
+            <span>overflow: clean</span>
+            
+          </div>
+          <pre>{
+  &quot;design_dna&quot;: 10,
+  &quot;visual_proof&quot;: 20,
+  &quot;interaction_states&quot;: 10,
+  &quot;agentic_loop&quot;: 10,
+  &quot;anti_slop&quot;: 14
+}</pre>
+        </article>
+        
+        <article class="card">
+          <header>
+            <span>#2</span>
+            <strong>Static Prompt UI</strong>
+            <b>48 pts</b>
+          </header>
+          <div class="frame"><main style='padding:40px;text-align:center'><h1>Generate UI</h1><p style='color:#666'>Describe what you need.</p><button style='padding:12px 24px'>Generate</button></main></div>
+          <div class="shots"><div><small>Desktop</small><br><img src="01-static-prompt-ui-desktop.png" alt="desktop"></div><div><small>Mobile</small><br><img src="01-static-prompt-ui-mobile.png" alt="mobile"></div></div>
+          <div class="meta">
+            <span>overflow: clean</span>
+            
+          </div>
+          <pre>{
+  &quot;design_dna&quot;: 0,
+  &quot;visual_proof&quot;: 14,
+  &quot;interaction_states&quot;: 0,
+  &quot;agentic_loop&quot;: 0,
+  &quot;anti_slop&quot;: 10
+}</pre>
+        </article>
+        </section>
+</main>
+</body>
+</html>

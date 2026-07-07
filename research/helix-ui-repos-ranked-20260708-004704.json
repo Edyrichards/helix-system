@@ -1,0 +1,202 @@
+[
+  {
+    "description": "Claude Design: AI UI/UX architect. Screenshot to React, Figma components, Tailwind CSS generator. Prototyping agent, design systems, wireframe renderer. SVG icon creator, dark mode toggle, responsive layout tool. Front-end code export, shadcn/ui integration, vector assets, branding assistant.",
+    "forksCount": 2,
+    "fullName": "mikesheehan54/Claude-Code-Design-AI",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 76,
+    "updatedAt": "2026-07-03T15:18:58Z",
+    "url": "https://github.com/mikesheehan54/Claude-Code-Design-AI",
+    "license_spdx": "MIT License",
+    "helix_score": 65.97
+  },
+  {
+    "fullName": "abi/screenshot-to-code",
+    "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+    "stargazersCount": 73186,
+    "forksCount": 9013,
+    "updatedAt": "2026-07-07T17:21:29Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "Python"
+    },
+    "url": "https://github.com/abi/screenshot-to-code",
+    "license_spdx": "MIT License",
+    "helix_score": 62.39
+  },
+  {
+    "description": "\ud83c\udfa8 Open-source design MCP server + shadcn/ui registry \u2014 AI design systems for Claude Code, Cursor, Codex, GitHub Copilot & any MCP client. 31 brand-grade themes (Linear, Stripe, Vercel, Notion, Apple, Supabase, Figma\u2026) + design tokens, UI principles & WCAG rules. Install any component with one command.",
+    "forksCount": 6,
+    "fullName": "marvkr/better-design",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 165,
+    "updatedAt": "2026-07-07T10:13:44Z",
+    "url": "https://github.com/marvkr/better-design",
+    "license_spdx": "MIT License",
+    "helix_score": 52.04
+  },
+  {
+    "fullName": "grab/cursor-talk-to-figma-mcp",
+    "description": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
+    "stargazersCount": 6882,
+    "forksCount": 748,
+    "updatedAt": "2026-07-07T15:24:22Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "JavaScript"
+    },
+    "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
+    "license_spdx": "MIT License",
+    "helix_score": 47.66
+  },
+  {
+    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "forksCount": 34798,
+    "fullName": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "language": "",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0"
+    },
+    "stargazersCount": 141651,
+    "updatedAt": "2026-07-07T20:12:18Z",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "license_spdx": "GNU General Public License v3.0",
+    "helix_score": 46.6
+  },
+  {
+    "description": "Open-source components, blocks, and AI agents designed to speed up your workflow. Import them seamlessly into your favorite tools through Registry and MCPs.",
+    "forksCount": 4835,
+    "fullName": "creativetimofficial/ui",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 11945,
+    "updatedAt": "2026-07-07T20:11:43Z",
+    "url": "https://github.com/creativetimofficial/ui",
+    "license_spdx": "MIT License",
+    "helix_score": 45.84
+  },
+  {
+    "description": "Generate design system documentation for your UI components, directly from your AI agent. Renders into Figma or a portable .md file. Works with Cursor, Claude Code, and Codex.",
+    "forksCount": 31,
+    "fullName": "redongreen/uSpec",
+    "language": "TypeScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 228,
+    "updatedAt": "2026-07-07T12:53:39Z",
+    "url": "https://github.com/redongreen/uSpec",
+    "license_spdx": "MIT License",
+    "helix_score": 45.67
+  },
+  {
+    "description": "A neural network that transforms a design mock-up into a static website.",
+    "forksCount": 1541,
+    "fullName": "emilwallner/Screenshot-to-code",
+    "language": "HTML",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "url": ""
+    },
+    "stargazersCount": 16482,
+    "updatedAt": "2026-07-06T21:51:44Z",
+    "url": "https://github.com/emilwallner/Screenshot-to-code",
+    "license_spdx": "Other",
+    "helix_score": 42.65
+  },
+  {
+    "fullName": "dyad-sh/dyad",
+    "description": "Local, open-source AI app builder for power users \u2728 v0 / Lovable / Replit / Bolt alternative \ud83c\udf1f Star if you like it!",
+    "stargazersCount": 20853,
+    "forksCount": 2501,
+    "updatedAt": "2026-07-07T20:03:29Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/dyad-sh/dyad",
+    "license_spdx": "Other",
+    "helix_score": 42.37
+  },
+  {
+    "description": "AI can draw UI directly on the Figma canvas via JavaScript, and read existing designs back as structured data. Works with Claude Code, Cursor, VS Code, and Windsurf. No API KEY required.",
+    "forksCount": 45,
+    "fullName": "TranHoaiHung/figma-ui-mcp",
+    "language": "JavaScript",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 216,
+    "updatedAt": "2026-07-07T19:20:51Z",
+    "url": "https://github.com/TranHoaiHung/figma-ui-mcp",
+    "license_spdx": "MIT License",
+    "helix_score": 41.82
+  },
+  {
+    "fullName": "tldraw/tldraw",
+    "description": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
+    "stargazersCount": 48609,
+    "forksCount": 3361,
+    "updatedAt": "2026-07-07T20:03:56Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "nickname": ""
+    },
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "url": "https://github.com/tldraw/tldraw",
+    "license_spdx": "Other",
+    "helix_score": 40.04
+  },
+  {
+    "description": "An enforcement layer for Claude Code + Figma \u2014 4 skills that keep AI on your Design System rails. Components stay linked, tokens stay bound, nothing goes off-spec.",
+    "forksCount": 16,
+    "fullName": "senlindesign/claude2figma",
+    "language": "",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "stargazersCount": 174,
+    "updatedAt": "2026-07-07T03:36:32Z",
+    "url": "https://github.com/senlindesign/claude2figma",
+    "license_spdx": "MIT License",
+    "helix_score": 39.77
+  }
+]
