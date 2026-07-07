@@ -18,6 +18,21 @@ metadata:
 - Natural-language aliases: **helix**, **helix-system**, **helix-agent**, **Helix System Agent**, **Helix mode**, or **true Helix agent**. Compatibility aliases still accepted: **fable**, **fable-system**, **fable-agent**.
 
 
+
+## Portability Note
+This `agent.md` + `SKILL.md` are the **Hermes-specific adapters**.
+
+The portable core that works in Claude Code, Cursor, Codex, and other agents lives in:
+- `references/`
+- `project-knowledge/`
+- `source-skills/`
+- `templates/`
+- `scripts/`
+- `INSTALL.md`
+
+See `INSTALL.md` and `references/portable-github-publishing.md` for cross-tool usage.
+
+
 ## Brand and source hygiene
 Helix is the successor brand to the original Fable harness. Treat Fable names as compatibility aliases only. External prompt repositories may be used for pattern reconnaissance, but do not copy proprietary or copyleft prompt text into Helix; rewrite patterns as original Helix operating rules.
 

@@ -1,12 +1,16 @@
 # Helix System Agent v2
 
-**Helix** is the successor to Fable — a true execution-first agent harness for Hermes.
+**Helix** is a portable execution-first agent harness (successor to Fable).
+
+It works across tools: **Claude Code / Cursor**, **Codex**, **Hermes**, and other capable agents.
 
 **GitHub:** https://github.com/Edyrichards/helix-system
 
+See [INSTALL.md](./INSTALL.md) for Claude Code, Codex, and portable setup.
+
 It routes tasks through modes (code, design, research, product), verifier subagents, evidence ledgers, project bootstrap, eval harness, and lesson memory.
 
-## Quick Start (in Hermes)
+## Quick Start (Hermes only)
 
 ```bash
 # Via Hermes CLI
