@@ -1,0 +1,20 @@
+[
+  {
+    "name": "mode-router-lesson-gated",
+    "change": "Require a lesson update + evidence before accepting change in this area",
+    "score_hint": "higher durability",
+    "score": 65
+  },
+  {
+    "name": "mode-router-explicit-check",
+    "change": "Add explicit load of relevant reference in mode-router and critique for ensure UX psychology principles are loaded for all commitment and onboarding flows",
+    "score_hint": "likely +8-15",
+    "score": 60
+  },
+  {
+    "name": "mode-router-current",
+    "change": "No change (baseline)",
+    "score_hint": "current",
+    "score": 50
+  }
+]

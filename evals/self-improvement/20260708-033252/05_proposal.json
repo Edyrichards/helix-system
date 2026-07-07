@@ -1,0 +1,11 @@
+{
+  "recommendation": "Adopt mode-router-lesson-gated",
+  "change": "Require a lesson update + evidence before accepting change in this area",
+  "evidence_dir": "/Users/edy/.hermes/agents/helix-system/evals/self-improvement/20260708-033252",
+  "next_steps": [
+    "Load 07-self-improvement.md + relevant references",
+    "Apply the change to the target file(s)",
+    "Re-run this script as verification",
+    "Update handoff or commit with evidence"
+  ]
+}

@@ -116,3 +116,7 @@ When publishing the portable Helix package for others to install, follow `refere
 
 ## Completion rule
 Use `Verified: <specific evidence>` or `Implemented, unverified: <exact step>`. For assessments, use `Assessed: <evidence reviewed>`.
+
+
+## Self-Improvement
+Load `references/07-self-improvement.md`. Run `python scripts/helix_self_improve.py` to drive the meta-loop. Every improvement must produce evidence and a lesson.

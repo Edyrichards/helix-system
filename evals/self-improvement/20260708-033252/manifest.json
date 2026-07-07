@@ -1,0 +1,47 @@
+{
+  "timestamp": "20260708-033252",
+  "area": "mode-router",
+  "brief": "ensure UX psychology principles are loaded for all commitment and onboarding flows",
+  "steps": [],
+  "baseline": {
+    "cmd": "python scripts/helix_eval.py --limit 3",
+    "stdout": "/Users/edy/.hermes/agents/helix-system/evals/runs/20260708-033252\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  "research": {
+    "note": "General research not yet scripted for this area. Load external-agent-patterns.md manually."
+  },
+  "variants": [
+    {
+      "name": "mode-router-lesson-gated",
+      "change": "Require a lesson update + evidence before accepting change in this area",
+      "score_hint": "higher durability",
+      "score": 65
+    },
+    {
+      "name": "mode-router-explicit-check",
+      "change": "Add explicit load of relevant reference in mode-router and critique for ensure UX psychology principles are loaded for all commitment and onboarding flows",
+      "score_hint": "likely +8-15",
+      "score": 60
+    },
+    {
+      "name": "mode-router-current",
+      "change": "No change (baseline)",
+      "score_hint": "current",
+      "score": 50
+    }
+  ],
+  "lesson_file": "lessons/mode-router/20260708-033252-mode-router.md",
+  "proposal": {
+    "recommendation": "Adopt mode-router-lesson-gated",
+    "change": "Require a lesson update + evidence before accepting change in this area",
+    "evidence_dir": "/Users/edy/.hermes/agents/helix-system/evals/self-improvement/20260708-033252",
+    "next_steps": [
+      "Load 07-self-improvement.md + relevant references",
+      "Apply the change to the target file(s)",
+      "Re-run this script as verification",
+      "Update handoff or commit with evidence"
+    ]
+  }
+}

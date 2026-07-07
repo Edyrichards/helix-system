@@ -129,3 +129,26 @@ See README for current status. Scripts are Python and should run in most environ
 For questions or contributions, open an issue on the GitHub repo.
 
 This structure follows the philosophy in `helix-packaging-plan.md`: instructions are always-on (CLAUDE.md), knowledge is on-demand (layers/references), skills are per-repo or global.
+
+
+## Self-Improvement (Making Helix Better Over Time)
+
+Helix can improve *itself* using its own systems.
+
+1. Load `references/07-self-improvement.md`
+2. Run the driver:
+   ```bash
+   python scripts/helix_self_improve.py --area "mode-router" --brief "ensure UX psychology is always loaded for onboarding"
+   ```
+3. Review the evidence in `evals/self-improvement/<timestamp>/`
+4. The script produces:
+   - Baseline + research
+   - Scored variants
+   - A proposed lesson file in `lessons/<area>/`
+   - A concrete proposal with next steps
+
+This loop uses the same eval, research, tournament, critique, and lesson machinery that Helix uses for user work.
+
+For full autonomy, invoke the Meta mode and let the agent drive multiple iterations with verifier subagents.
+
+See `references/07-self-improvement.md` for the complete architecture (detect → scope → baseline → research → variants → tournament → repair → lesson → commit).

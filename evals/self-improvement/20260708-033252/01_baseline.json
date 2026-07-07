@@ -1,0 +1,6 @@
+{
+  "cmd": "python scripts/helix_eval.py --limit 3",
+  "stdout": "/Users/edy/.hermes/agents/helix-system/evals/runs/20260708-033252\n",
+  "stderr": "",
+  "returncode": 0
+}

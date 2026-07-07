@@ -70,6 +70,10 @@ python3 scripts/verify_install.py
 Proprietary (internal Hermes + Edy Richardson).  
 Contact for usage outside personal Hermes setups.
 
+## Self-Improvement
+
+Helix ships with a full meta-loop (07-self-improvement.md + helix_self_improve.py). It can diagnose weaknesses in its own references, skills, and scripts, research external patterns, run tournaments on proposed changes, extract lessons, and produce evidence-backed patches.
+
 ## Status
 
 Actively evolving toward full Claude Design-class autonomy (intake → DNA → variants → browser-verified render → repair → handoff).
