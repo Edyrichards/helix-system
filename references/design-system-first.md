@@ -163,3 +163,15 @@ A UI task is not complete unless Helix can answer:
 - How are charts/data visuals themed?
 - How will future screens follow this?
 - What was visually verified?
+
+
+
+## UX Psychology for Commitment Flows
+
+When the design task involves onboarding, sign-up, upgrade, checkout, or any screen where the user must commit (give email, payment, time), also load `references/ux-psychology-principles.md`.
+
+The design intake must include:
+- What value can be delivered before the ask?
+- How can we create a sense of progress or ownership before commitment?
+- What loss can be made concrete?
+- What anchor should the user see first?

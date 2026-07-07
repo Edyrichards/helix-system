@@ -106,3 +106,18 @@ Scale Helix toward a Claude Design-class autonomous UI/UX generation system by t
 - README enhanced with quick start and capabilities
 
 The canonical source is now on GitHub. Future changes should be developed here and pushed.
+
+## UX Psychology + Web Research Upgrade (current session)
+- Created `references/ux-psychology-principles.md` — distilled 6 principles from high-signal UX psychology video (smart defaults, goal gradient, reciprocity, endowment/IKEA, loss aversion, anchoring) + Mobbin research mandate.
+- Updated `design-rubric-v2.md` — added "UX Psychology" and "Commitment & Conversion" dimensions (now 12 dimensions / 60 pts total). Psychology is mandatory for commitment flows.
+- Updated `design-masterclass.md` and `design-system-first.md` to require loading the psychology reference for onboarding/sign-up/upgrade flows.
+- Added `scripts/helix_live_design_analyzer.py` — new web capability using Playwright:
+  - Visits real URLs (e.g. competitor onboarding flows).
+  - Captures desktop + mobile screenshots.
+  - Extracts heuristic signals for the 6 principles.
+  - Produces `live_analysis.json` ready for deeper critique.
+- Updated `references/ui-design-autonomy-repo-patterns.md` with "Live Web Research for UX Psychology" section (explicitly calls out Mobbin + browser-use style research).
+- Updated SKILL.md with usage for the new analyzer.
+- Goal: Helix no longer guesses good onboarding — it studies real top-team patterns via web and applies proven psychology.
+
+This directly addresses the user's real motivation: "If you want to get better at designing onboarding that actually works, Mobbin is genuinely the best resource" + "make helix use web".

@@ -40,6 +40,17 @@ Examples:
 - Premium landing page for technical buyers, restrained and proof-forward, leaning toward Linear/GitHub-style developer trust.
 - Consumer finance mobile screen, warm but not cute, leaning toward calm editorial cards and evidence-first microcopy.
 
+## UX Psychology & Conversion Amendment
+
+For any onboarding, sign-up, upgrade, checkout, or commitment flow, **also load** `references/ux-psychology-principles.md`.
+
+Helix must explicitly apply the six principles (smart defaults, goal gradient, reciprocity, endowment/IKEA, loss aversion, anchoring) on these screens.
+
+In design reads and critiques, call out which principles are active and how they were implemented.
+
+See the dedicated reference for full rules and critique prompts. Mobbin-style research of real flows is required before inventing commitment patterns.
+
+
 ## Mode split: product UI vs marketing UI
 
 Helix must not apply landing-page theatrics to dashboards.

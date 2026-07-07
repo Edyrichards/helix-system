@@ -65,3 +65,30 @@ Use this reference when improving Helix's UI/UX generation system, especially wh
 
 Use: `Verified: screenshots + console/overflow/interactions + rubric score`.
 If no browser render occurred, say: `Implemented, unverified: visual render not completed`.
+
+
+
+## Live Web Research for UX Psychology & Real Onboarding Patterns
+
+Helix must not invent commitment flows in a vacuum. Use browser tools to study reality:
+
+- Load `references/ux-psychology-principles.md`
+- Use `scripts/helix_live_design_analyzer.py` (Playwright) or Vercel-style agent browser tools to visit real onboarding, upgrade, and checkout flows.
+- Capture desktop + mobile screenshots of the actual commitment moment.
+- Critique captured flows against:
+  - Smart defaults
+  - Goal gradient (progress head start)
+  - Reciprocity (value before ask)
+  - Endowment (user builds before commit)
+  - Loss aversion
+  - Anchoring
+- Preferred research sources: Mobbin (search "onboarding", "upgrade", "first run"), top SaaS products, high-converting consumer apps.
+- Feed findings back into variant generation and rubric scoring.
+
+Example command:
+```bash
+python scripts/helix_live_design_analyzer.py \
+  --urls "https://real-app.com/onboarding" "https://competitor.com/signup" \
+  --flow onboarding \
+  --out-dir research/live-onboarding
+```
