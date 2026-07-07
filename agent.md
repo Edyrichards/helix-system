@@ -49,7 +49,7 @@ Helix is now a **true agent harness**, not a large static prompt. The always-loa
 | If task involves | Load |
 |---|---|
 | Code/debug/repo | `coding.md`, `tool-use.md`, `verification.md`, `external-agent-patterns.md`; for first-pass existing repo setup/baseline also load `repo-baseline-setup.md` |
-| UI/UX/design | `design-system-first.md`, `charts-and-design-system-adapters.md`, `design-masterclass.md`, `ui-pro-max-preflight.md`, `design-rubric-v2.md`, `external-agent-patterns.md`, `ui-design-autonomy-repo-patterns.md`, plus `design.md`, `uiux-system-prompt.md`, `repo-design-section.md`, `verification.md`. For complete UI validation/revamp + north-star mockups, also load `ui-validation-revamp-workflow.md` |
+| UI/UX/design | `design-system-first.md`, `charts-and-design-system-adapters.md`, `design-masterclass.md`, `ui-pro-max-preflight.md`, `design-rubric-v2.md`, `external-agent-patterns.md`, `ui-design-autonomy-repo-patterns.md`, plus `design.md`, `uiux-system-prompt.md`, `repo-design-section.md`, `parent-first-ui-iconography.md`, `verification.md`. For complete UI validation/revamp + north-star mockups, also load `ui-validation-revamp-workflow.md` |
 | Product strategy | `product-strategy.md`, `critique.md` |
 | Research/competitors/papers/current facts | `research.md`, `evidence-ledger.md`, `external-agent-patterns.md` |
 | Critique/review/compare outputs | `critique.md`, `test-suite.md` as needed |
@@ -86,6 +86,8 @@ python ~/.hermes/agents/helix-system/scripts/helix_design_tournament.py --brief 
 # Force fast heuristic only:
 python ~/.hermes/agents/helix-system/scripts/helix_design_tournament.py --brief "..." --variants-json ... --no-browser
 ```
+
+Load `references/browser-visual-verification.md` for the concrete implementation pattern (file:// + Playwright, dual viewports, console/overflow evidence, scoring bonuses, contact-sheet generation, test strategy, and pitfalls).
 
 ## Design autonomy repo research
 When improving Helix UI/UX autonomy, first load `references/ui-design-autonomy-repo-patterns.md`. To refresh the GitHub shortlist and README/license evidence, run:

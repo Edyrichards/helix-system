@@ -2,6 +2,8 @@
 
 **Helix** is the successor to Fable — a true execution-first agent harness for Hermes.
 
+**GitHub:** https://github.com/Edyrichards/helix-system
+
 It routes tasks through modes (code, design, research, product), verifier subagents, evidence ledgers, project bootstrap, eval harness, and lesson memory.
 
 ## Quick Start (in Hermes)

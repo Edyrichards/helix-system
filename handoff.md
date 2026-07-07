@@ -97,3 +97,12 @@ Scale Helix toward a Claude Design-class autonomous UI/UX generation system by t
 - Integrate with project design memory (store DNA + winning screenshots).
 - Wire into full Helix design mode as a first-class step.
 - Optional: add visual diffing against baseline or Figma exports.
+
+## GitHub Publication
+- Repo created and pushed: https://github.com/Edyrichards/helix-system
+- Initial commit: c1df2c9 (all current harness files + browser visual verification work)
+- Tag: v2.0.0
+- Visibility: PUBLIC
+- README enhanced with quick start and capabilities
+
+The canonical source is now on GitHub. Future changes should be developed here and pushed.
