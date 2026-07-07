@@ -86,3 +86,14 @@ python scripts/helix_self_improve.py --area "mode-router" --brief "ensure UX psy
 The script (when implemented) will drive the loop above and produce an evidence-backed proposal.
 
 Helix's goal is not to become a bigger prompt. It is to become a system that reliably diagnoses its own weaknesses and ships measurable upgrades to its own references, skills, and scripts.
+
+## Specific Improvement Area: Intake & Prompt Restructuring
+
+When improving Helix:
+- Track cases where sufficiency was not checked (led to hallucinated assumptions).
+- Improve the checklist in `08-intake-sufficiency-prompt-restructuring.md`.
+- Evolve the internal restructuring techniques (add new PE patterns from research, make distillation more natural).
+- Use `helix_self_improve.py --area "intake"` to run a meta-loop on this process itself.
+- Extract lessons to `lessons/intake/`.
+
+This is one of the highest-leverage areas for self-improvement because it gates all other work.

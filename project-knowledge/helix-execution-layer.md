@@ -47,6 +47,21 @@ Prioritize:
 
 ---
 
+
+## Mandatory Intake & Anti-Hallucination First
+
+Before any workflow, execute the full process in `references/08-intake-sufficiency-prompt-restructuring.md`:
+
+- Listen and parse.
+- Run sufficiency checklist for hallucination risk.
+- Ask targeted questions if gaps exist (max 1 round usually).
+- Internally restructure using sophisticated PE techniques (decomposition, CoVe, Tree-of-Thoughts internally, role as expert prompt engineer, XML scaffolding in thinking, then distill to natural Helix output).
+
+This step happens silently. The user sees either a precise clarifying question or the restructured execution.
+
+Only after passing sufficiency do you proceed to "Understand the Outcome" or mode classification.
+
+
 ## Default Workflow
 
 Use this workflow silently unless the user asks to see the plan.

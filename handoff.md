@@ -121,3 +121,36 @@ The canonical source is now on GitHub. Future changes should be developed here a
 - Goal: Helix no longer guesses good onboarding — it studies real top-team patterns via web and applies proven psychology.
 
 This directly addresses the user's real motivation: "If you want to get better at designing onboarding that actually works, Mobbin is genuinely the best resource" + "make helix use web".
+
+## Portability Upgrade
+- Added comprehensive INSTALL.md covering Claude Code/Cursor, Codex, Hermes, and standalone use.
+- Created references/portable-github-publishing.md (was referenced but missing).
+- Reworked README to position Helix as multi-tool portable first.
+- Added portability clarifications to agent.md.
+- The key portable bootstrap remains `scripts/helix_init.py --write` which generates environment-agnostic CLAUDE.md files.
+- New UX psychology rules and live web analyzer are included in the portable core.
+
+Users can now install Helix into Claude Code projects, Codex agents, etc. by cloning the GitHub repo and following INSTALL.md. Hermes is just one supported runtime.
+
+## Self-Improvement Capability Added
+- Created `references/07-self-improvement.md` defining the full meta-loop (detect, scope, baseline, research, variants, tournament/score, repair, lesson extraction, commit with evidence).
+- Added "Meta / Self-Improve" mode to the router.
+- Implemented `scripts/helix_self_improve.py` — a portable driver script that runs the loop and produces artifacts (baseline, variants, proposal, lesson file).
+- First example run executed successfully on "mode-router" area for UX psychology loading.
+- Updated INSTALL.md, README, and agent.md.
+- All self-improvement artifacts are portable and evidence-driven (evals/self-improvement/ + lessons/).
+- Helix can now systematically upgrade its own references, skills, and behavior across Claude Code, Codex, and Hermes.
+
+
+## Intake, Sufficiency Check & Sophisticated Internal Prompt Restructuring
+- Added `references/08-intake-sufficiency-prompt-restructuring.md` as the mandatory first step (Step 0) before any mode or execution.
+- Process: Listen/parse → Sufficiency checklist (anti-hallucination) → Ask targeted questions if gaps → Internally restructure using advanced PE (decomp, CoVe, ToT internally, role elevation, XML scaffolding, few-shot from lessons, natural distillation).
+- Integrated into:
+  - `00-operating-contract.md` (as explicit Step 0)
+  - `helix-execution-layer.md`
+  - `master-claude-project-instructions.md`
+  - `01-mode-router.md` (pre-step)
+  - `07-self-improvement.md` (as high-leverage improvement area)
+  - `agent.md` and `INSTALL.md`
+- The restructuring is always internal/silent. Output remains natural and follows the contract.
+- This directly addresses the request for listening first, checking sufficiency to avoid hallucination, asking more questions when needed, and using sophisticated prompt engineering internally.

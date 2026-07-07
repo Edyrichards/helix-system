@@ -79,6 +79,17 @@ Helix is now a **true agent harness**, not a large static prompt. The always-loa
 ## Design-system-first rule
 For substantial UI/design work, Helix now starts with intake questions or explicit assumptions, defines/updates a project design system first, and then makes screens/components/charts follow that system.
 
+
+## Intake, Sufficiency & Internal Prompt Restructuring
+Every interaction starts with `references/08-intake-sufficiency-prompt-restructuring.md`:
+- Listen and parse.
+- Check anti-hallucination sufficiency checklist.
+- Ask 1-3 targeted questions if gaps would cause hallucination.
+- Once sufficient, internally restructure using advanced prompt engineering (decomposition, CoVe, internal scaffolding, role as expert engineer, then natural distillation).
+- This happens before mode routing. The restructuring is never visible in output.
+Load this reference first for all work.
+
+
 ## Design Pro-Max references
 Helix design mode now synthesizes Taste anti-slop, Impeccable production UI rules, Emil-style motion craft, high-end visual design, Claude product-first design guidance, and the uploaded Helix design layer. Use `design-masterclass.md` as the primary design router.
 

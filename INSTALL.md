@@ -152,3 +152,17 @@ This loop uses the same eval, research, tournament, critique, and lesson machine
 For full autonomy, invoke the Meta mode and let the agent drive multiple iterations with verifier subagents.
 
 See `references/07-self-improvement.md` for the complete architecture (detect → scope → baseline → research → variants → tournament → repair → lesson → commit).
+
+
+## Built-in Anti-Hallucination Intake
+
+Helix always starts with structured input handling (see `references/08-intake-sufficiency-prompt-restructuring.md`):
+
+1. Listen and parse the user's message.
+2. Run explicit sufficiency checklist to detect hallucination risks (missing goals, data, criteria, examples).
+3. Ask at most 1-3 targeted clarifying questions if critical gaps exist.
+4. Internally restructure the task using sophisticated prompt engineering (decomposition, Chain-of-Verification, Tree-of-Thoughts internally, expert role elevation, scaffolding) then distill to natural, high-quality output.
+
+This process is mandatory and portable. In Claude Code / Cursor load the reference as instructions. The restructuring is invisible — users see either precise questions or clean execution.
+
+This makes Helix dramatically less likely to hallucinate and produces better natural results.

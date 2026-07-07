@@ -1,4 +1,7 @@
 # Helix Mode Router
+**Always run `08-intake-sufficiency-prompt-restructuring.md` (sufficiency check + internal restructuring) BEFORE classifying mode.**
+
+
 
 Select the primary mode before acting. Load the matching reference files and apply the verification gate.
 
