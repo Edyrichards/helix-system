@@ -154,3 +154,11 @@ Users can now install Helix into Claude Code projects, Codex agents, etc. by clo
   - `agent.md` and `INSTALL.md`
 - The restructuring is always internal/silent. Output remains natural and follows the contract.
 - This directly addresses the request for listening first, checking sufficiency to avoid hallucination, asking more questions when needed, and using sophisticated prompt engineering internally.
+
+
+## Swarm & Multi-Agent Jury (2026-07)
+- Added `references/09-swarm-orchestration.md`
+- Added `personas/` directory with core Helix specialists (Swarm Coordinator, Code Reviewer, Design Specialist, Research Synthesizer)
+- These are original, not cloned — they deeply integrate intake, evidence ledger, verifier subagents, and self-improvement.
+- `scripts/helix_swarm.py` helps with decomposition and prompt generation.
+- The multi-agent design jury idea is now realized as the Swarm + Jury pattern.

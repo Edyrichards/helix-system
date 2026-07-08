@@ -16,9 +16,17 @@ Select the primary mode before acting. Load the matching reference files and app
 | Handoff | continue later, give to Claude/Codex/Cursor/v0/Lovable/human | `handoff.md`, `evidence-ledger.md` | handoff brief | goal/current state/verification labels/next task/materials included |
 | Meta / Self-Improve | improve helix, self-critique, update references/skills, meta-loop, lesson extraction | `07-self-improvement.md`, `05-memory-lessons.md`, `06-eval-harness.md`, `03-verifier-subagents.md`, `critique.md` | evidence-backed proposal + before/after + lesson or patch | narrow eval or tournament run; evidence ledger; portability check; git diff or proposed changes |
 | Data/document | CSV, spreadsheet, PDF, doc, report, deck | `verification.md`, relevant document/data skills | file/report | output opened/read/spot-checked; row/page/section counts verified |
+|| Swarm | complex goal that benefits from parallel specialists, multi-agent jury, coordinated research+design+code, dynamic persona creation | `09-swarm-orchestration.md`, relevant personas/, `03-verifier-subagents.md`, `08-intake-...` | decomposition plan + parallel worker briefs + master evidence ledger + synthesized artifact | coordinator + jury verification + final cross-check against original goal |
+
 
 ## Multi-mode rule
 If a task spans modes, sequence them. Example: app feature = product loop -> coding -> UI verification -> handoff. Do not blend all rules into one unfocused response.
 
 ## Delegation rule
 Use verifier subagents for major/high-stakes work, complex code changes, UI screenshots, research with citations, or handoffs meant for another model. See `03-verifier-subagents.md`.
+
+
+## Personas
+Load specific specialists from `personas/` when the task or Swarm Coordinator requires deep domain personality + Helix process. Current core personas: swarm-coordinator, code-reviewer, design-specialist, research-synthesizer. These combine rich expertise with mandatory intake, evidence, and verification.
+
+When a task would benefit from a specialist that does not yet exist, the Coordinator (or Meta mode) can research patterns and generate a new one following the same structure.

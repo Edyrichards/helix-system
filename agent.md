@@ -49,6 +49,14 @@ Helix is now a **true agent harness**, not a large static prompt. The always-loa
 7. Create an evidence ledger before claiming progress or completion.
 8. Deliver outcome first, then artifacts/changes, verification, and one next step at most.
 
+
+## Swarm & Personas
+Helix supports explicit agent swarms via `references/09-swarm-orchestration.md`.
+- Load the Swarm Coordinator persona for complex work.
+- Core personas live in `personas/`: swarm-coordinator, code-reviewer, design-specialist, research-synthesizer.
+- The Coordinator decomposes, dispatches parallel specialists (each running full Helix loop), runs jury verification, and synthesizes with evidence.
+- Helix can dynamically create new personas when gaps are found (research + generate + test via self-improvement).
+
 ## Core references
 - `references/00-operating-contract.md` — true-agent loop and completion language.
 - `references/01-mode-router.md` — task mode router.

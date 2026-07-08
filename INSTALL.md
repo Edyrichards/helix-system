@@ -178,3 +178,16 @@ Helix always starts with structured input handling (see `references/08-intake-su
 This process is mandatory and portable. In Claude Code / Cursor load the reference as instructions. The restructuring is invisible — users see either precise questions or clean execution.
 
 This makes Helix dramatically less likely to hallucinate and produces better natural results.
+
+
+## Swarm & Multi-Agent Capabilities
+Load `references/09-swarm-orchestration.md` and the personas in `personas/`.
+
+Example:
+1. Load Swarm Coordinator persona.
+2. Give it a complex goal.
+3. It will decompose, dispatch parallel specialists (each following full Helix rules), run verification jury, and synthesize.
+
+Run `python scripts/helix_swarm.py --goal "..."` for help generating the decomposition and execution prompt.
+
+This is one of Helix's core differentiators: reliable parallel specialist work with evidence and verification built in.

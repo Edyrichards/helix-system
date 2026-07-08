@@ -80,3 +80,15 @@ Helix ships with a full meta-loop (07-self-improvement.md + helix_self_improve.p
 Actively evolving toward full Claude Design-class autonomy (intake → DNA → variants → browser-verified render → repair → handoff).
 
 Latest upgrades include real Playwright visual proof in the design tournament harness.
+
+
+## Swarm Orchestration & Specialists
+Helix can now run true agent swarms:
+- `references/09-swarm-orchestration.md` — full protocol
+- `personas/` — Helix-native specialists (Swarm Coordinator, Code Reviewer, Design Specialist, Research Synthesizer)
+- `scripts/helix_swarm.py` — decomposition helper and prompt generator
+- Each specialist runs the complete Helix loop (intake → execute → evidence → verification)
+- Coordinator aggregates with jury verification
+- Helix can dynamically create new personas
+
+This gives you both the "who" (specialists with personality and process) and the "how" (rigorous execution, verification, and self-improvement).
