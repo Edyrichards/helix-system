@@ -9,7 +9,12 @@ It works across tools: **Claude Code / Cursor**, **Codex**, **Hermes**, and othe
 See [QUICKSTART_CLAUDE.md](./QUICKSTART_CLAUDE.md) for the fastest way to use it in Claude Code / Cursor.
 See [INSTALL.md](./INSTALL.md) for full details and other tools.
 
-It routes tasks through modes (code, design, research, product), verifier subagents, evidence ledgers, project bootstrap, eval harness, and lesson memory.
+One-command project install:
+```bash
+scripts/install_helix.sh /path/to/project
+```
+
+It routes tasks through modes (code, design, research, product, GTM), verifier subagents, evidence ledgers, project bootstrap, eval harness, lesson memory, reprompting, and specialist swarms.
 
 ## Quick Start (Hermes only)
 
@@ -92,3 +97,30 @@ Helix can now run true agent swarms:
 - Helix can dynamically create new personas
 
 This gives you both the "who" (specialists with personality and process) and the "how" (rigorous execution, verification, and self-improvement).
+
+
+## Why Helix Wins
+
+Helix is being built as the agent OS that could sit underneath Hermes, Claude Code, Cursor, Codex, or any serious AI coding/design workflow.
+
+Its wedge is:
+- **Reprompting**: rough user intent becomes a professional execution brief.
+- **Design reasoning**: every UI decision traces to user psychology, product job, hierarchy, and evidence.
+- **Design psychology**: ethical conversion/onboarding science, not generic persuasion tricks.
+- **Verified output**: screenshots, console checks, overflow checks, evidence ledgers.
+- **Specialist swarms**: Prompt Architect + Research + Conversion Psychologist + Design Specialist + Jury.
+- **Self-improvement**: lessons and meta-loops upgrade Helix itself.
+
+Key files:
+- `references/10-design-reasoning-engine.md`
+- `references/11-advanced-design-psychology.md`
+- `references/12-prompt-reprompt-engine.md`
+- `PERSONA_CATALOG.md`
+- `GO_TO_MARKET.md`
+- `research/agency-agents-dissection-2026-07.md`
+
+
+## Examples
+
+- `examples/reprompt-onboarding.md` — how Helix turns vague input into a professional design brief.
+- `examples/design-swarm-checkout.md` — best-in-class design swarm recipe with psychology + verification.

@@ -22,6 +22,14 @@ The core is a set of:
 - **Scripts** — automation (Python, runnable anywhere with the deps)
 - **Prompts** and eval harness
 
+Fast install into a project:
+
+```bash
+git clone https://github.com/Edyrichards/helix-system.git
+cd helix-system
+scripts/install_helix.sh /path/to/project
+```
+
 Clone the repo once:
 
 ```bash
@@ -191,3 +199,23 @@ Example:
 Run `python scripts/helix_swarm.py --goal "..."` for help generating the decomposition and execution prompt.
 
 This is one of Helix's core differentiators: reliable parallel specialist work with evidence and verification built in.
+
+
+## Best-in-Class Design / Reprompting Stack
+For premium design, onboarding, conversion, or product experience work, load:
+
+- `references/08-intake-sufficiency-prompt-restructuring.md`
+- `references/12-prompt-reprompt-engine.md`
+- `references/10-design-reasoning-engine.md`
+- `references/11-advanced-design-psychology.md`
+- `references/design-masterclass.md`
+- `PERSONA_CATALOG.md`
+
+Recommended swarm:
+- Prompt Architect
+- Research Synthesizer
+- Conversion Psychologist
+- Design Specialist
+- Design Jury Lead
+
+For GTM, load `GO_TO_MARKET.md` and `personas/gtm-strategist.md`.

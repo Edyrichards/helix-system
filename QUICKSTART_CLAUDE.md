@@ -57,3 +57,7 @@ git clone https://github.com/Edyrichards/helix-system.git
 Repo: https://github.com/Edyrichards/helix-system
 
 Let me know what you think or if you want help setting it up on a specific project.
+
+
+## Best first demo
+Try: "make onboarding better" with `references/12-prompt-reprompt-engine.md` loaded. Helix should ask targeted questions instead of hallucinating. Then try `examples/design-swarm-checkout.md` for a full specialist swarm.

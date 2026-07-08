@@ -47,6 +47,8 @@ MANIFEST.sha256.bak
 
 # Large or generated that shouldn't be in base (but screenshots in evals are intentional for demos)
 # evals/design-tournaments/*/   # keep for now as evidence
+evals/runs/
+evals/swarms/
 
 # Playwright
 playwright-report/
