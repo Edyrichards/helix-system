@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-07-08 — Browser renderer fallback for UI tournaments
+
+- Added Node Playwright fallback to `scripts/helix_design_tournament.py` when Python Playwright is unavailable.
+- Browser tournaments can now produce desktop/mobile screenshots, console evidence, and overflow checks from project-local Node Playwright installs.
+- Added regression coverage for the Node fallback renderer.
+- Updated browser visual verification docs with renderer behavior.
+
 ## 2026-07-08 — UI Pro behavior/reference/screenshot learning loop
 
 - Added mandatory behavior psychology mapping for serious UI/UX work.

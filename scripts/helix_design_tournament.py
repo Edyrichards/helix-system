@@ -5,6 +5,7 @@ import argparse
 import html
 import json
 import re
+import subprocess
 import tempfile
 import threading
 from datetime import datetime
@@ -163,6 +164,83 @@ def _render_with_playwright(html_path: Path, out_dir: Path, base_slug: str) -> d
     return evidence
 
 
+def _render_with_node_playwright(html_path: Path, out_dir: Path, base_slug: str) -> dict[str, Any]:
+    """Render screenshots with Node Playwright when Python Playwright is unavailable.
+
+    This is the portable fallback for Next/Vite/Tailwind projects that already have
+    Playwright in node_modules. The script is written inside out_dir so Node's
+    normal module resolution can walk up into the target project's node_modules.
+    """
+    evidence: dict[str, Any] = {
+        "visual_verified": False,
+        "desktop_screenshot": None,
+        "mobile_screenshot": None,
+        "console_errors": [],
+        "has_horizontal_overflow": None,
+        "renderer": "node-playwright",
+    }
+    script_path = out_dir / f"{base_slug}-render.mjs"
+    desktop_png = out_dir / f"{base_slug}-desktop.png"
+    mobile_png = out_dir / f"{base_slug}-mobile.png"
+    script = f"""
+import {{ chromium }} from 'playwright';
+const htmlPath = {json.dumps(str(html_path.resolve()))};
+const desktopPng = {json.dumps(str(desktop_png.resolve()))};
+const mobilePng = {json.dumps(str(mobile_png.resolve()))};
+const evidence = {{
+  visual_verified: false,
+  desktop_screenshot: {json.dumps(desktop_png.name)},
+  mobile_screenshot: {json.dumps(mobile_png.name)},
+  console_errors: [],
+  has_horizontal_overflow: null,
+  renderer: 'node-playwright'
+}};
+const browser = await chromium.launch({{ headless: true }});
+try {{
+  for (const [label, viewport, png] of [
+    ['desktop', {{ width: 1280, height: 800 }}, desktopPng],
+    ['mobile', {{ width: 390, height: 844 }}, mobilePng]
+  ]) {{
+    const page = await browser.newPage({{ viewport }});
+    page.on('console', msg => {{
+      if (['error', 'warning'].includes(msg.type())) evidence.console_errors.push(`${{label}} ${{msg.type()}}: ${{msg.text()}}`);
+    }});
+    await page.goto('file://' + htmlPath, {{ waitUntil: 'networkidle', timeout: 8000 }});
+    await page.waitForTimeout(250);
+    await page.screenshot({{ path: png, fullPage: true }});
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 4);
+    if (label === 'desktop') evidence.has_horizontal_overflow = overflow;
+    if (label === 'mobile' && overflow) evidence.has_horizontal_overflow = true;
+    await page.close();
+  }}
+  evidence.visual_verified = true;
+}} finally {{
+  await browser.close();
+}}
+console.log(JSON.stringify(evidence));
+"""
+    try:
+        script_path.write_text(script, encoding="utf-8")
+        result = subprocess.run(
+            ["node", str(script_path)],
+            capture_output=True,
+            text=True,
+            timeout=30,
+            cwd=str(out_dir),
+        )
+        if result.returncode != 0:
+            msg = (result.stderr or result.stdout or "node playwright failed").strip()
+            evidence["console_errors"].append(f"node_playwright_error: {msg[:200]}")
+            return evidence
+        payload = json.loads(result.stdout.strip().splitlines()[-1])
+        evidence.update(payload)
+        evidence["visual_verified"] = bool((out_dir / str(evidence.get("desktop_screenshot"))).exists() and (out_dir / str(evidence.get("mobile_screenshot"))).exists())
+    except FileNotFoundError:
+        evidence["console_errors"].append("node_playwright_error: node executable not found")
+    except Exception as exc:
+        evidence["console_errors"].append(f"node_playwright_error: {str(exc)[:200]}")
+    return evidence
+
 def contact_sheet_html(scored: list[dict[str, Any]], brief: str, visual_mode: str) -> str:
     cards = []
     for idx, variant in enumerate(scored, 1):
@@ -247,6 +325,7 @@ def write_tournament(out_root: Path, brief: str, variants: list[dict[str, Any]],
 
     visual_mode = "heuristic"
     processed: list[dict[str, Any]] = []
+    browser_modes: set[str] = set()
 
     for idx, variant in enumerate(variants, 1):
         v = dict(variant)  # copy
@@ -259,13 +338,22 @@ def write_tournament(out_root: Path, brief: str, variants: list[dict[str, Any]],
         html_path.write_text(standalone, encoding="utf-8")
 
         ev: dict[str, Any] = {}
-        if use_browser and HAS_PLAYWRIGHT:
-            ev = _render_with_playwright(html_path, out, f"{idx:02d}-{s}")
-            visual_mode = "browser"
+        if use_browser:
+            if HAS_PLAYWRIGHT:
+                ev = _render_with_playwright(html_path, out, f"{idx:02d}-{s}")
+                if ev.get("visual_verified"):
+                    browser_modes.add("python-playwright")
+            else:
+                ev = _render_with_node_playwright(html_path, out, f"{idx:02d}-{s}")
+                if ev.get("visual_verified"):
+                    browser_modes.add("node-playwright")
 
         v["visual_evidence"] = ev
         v["html_file"] = str(html_path.relative_to(out))
         processed.append(v)
+
+    if browser_modes:
+        visual_mode = "browser-" + "+".join(sorted(browser_modes))
 
     scored = score_variants(processed)
     manifest = {

@@ -64,6 +64,52 @@ def test_design_tournament_scores_and_writes_contact_sheet_data():
         assert (out2 / "contact-sheet.html").exists()
 
 
+def test_design_tournament_node_playwright_fallback_when_python_missing():
+    mod = load_script("helix_design_tournament.py")
+    assert hasattr(mod, "_render_with_node_playwright")
+
+    with tempfile.TemporaryDirectory() as td:
+        out_dir = Path(td)
+        html_path = out_dir / "variant.html"
+        html_path.write_text("<main><h1>Node fallback</h1><button>Go</button></main>", encoding="utf-8")
+
+        original_run = mod.subprocess.run
+
+        class FakeCompleted:
+            returncode = 0
+            stderr = ""
+
+            def __init__(self, stdout: str):
+                self.stdout = stdout
+
+        def fake_run(cmd, capture_output, text, timeout, cwd):
+            assert cmd[0] == "node"
+            assert Path(cmd[1]).exists()
+            (out_dir / "node-fallback-desktop.png").write_bytes(b"fake-desktop")
+            (out_dir / "node-fallback-mobile.png").write_bytes(b"fake-mobile")
+            payload = {
+                "visual_verified": True,
+                "desktop_screenshot": "node-fallback-desktop.png",
+                "mobile_screenshot": "node-fallback-mobile.png",
+                "console_errors": [],
+                "has_horizontal_overflow": False,
+                "renderer": "node-playwright",
+            }
+            return FakeCompleted(json.dumps(payload))
+
+        try:
+            mod.subprocess.run = fake_run
+            evidence = mod._render_with_node_playwright(html_path, out_dir, "node-fallback")
+        finally:
+            mod.subprocess.run = original_run
+
+        assert evidence["visual_verified"] is True
+        assert evidence["renderer"] == "node-playwright"
+        assert evidence["desktop_screenshot"] == "node-fallback-desktop.png"
+        assert evidence["mobile_screenshot"] == "node-fallback-mobile.png"
+        assert evidence["has_horizontal_overflow"] is False
+
+
 def test_verify_install_requires_new_autonomy_artifacts():
     verifier = (SCRIPTS / "verify_install.py").read_text()
     assert "helix_design_research.py" in verifier
