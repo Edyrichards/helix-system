@@ -1,5 +1,17 @@
 # Helix Installation Guide (Portable)
 
+## Sending to a friend who uses Claude
+
+The simplest thing to send is the dedicated quickstart:
+
+→ [QUICKSTART_CLAUDE.md](QUICKSTART_CLAUDE.md)
+
+It contains the exact steps and explanation your friend needs.
+
+---
+
+
+
 Helix is designed to be **portable across AI coding environments**, not tied to Hermes.
 
 The core is a set of:

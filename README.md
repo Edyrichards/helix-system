@@ -6,7 +6,8 @@ It works across tools: **Claude Code / Cursor**, **Codex**, **Hermes**, and othe
 
 **GitHub:** https://github.com/Edyrichards/helix-system
 
-See [INSTALL.md](./INSTALL.md) for Claude Code, Codex, and portable setup.
+See [QUICKSTART_CLAUDE.md](./QUICKSTART_CLAUDE.md) for the fastest way to use it in Claude Code / Cursor.
+See [INSTALL.md](./INSTALL.md) for full details and other tools.
 
 It routes tasks through modes (code, design, research, product), verifier subagents, evidence ledgers, project bootstrap, eval harness, and lesson memory.
 
