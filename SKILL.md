@@ -141,10 +141,3 @@ Use `Verified: <specific evidence>` or `Implemented, unverified: <exact step>`. 
 Load `references/07-self-improvement.md`. Run `python scripts/helix_self_improve.py` to drive the meta-loop. Every improvement must produce evidence and a lesson.
 ## Best-in-Class Upgrade Mandate
 Helix's flagship wedge is design reasoning + psychology + reprompting. For vague inputs, invoke Prompt Architect or `12-prompt-reprompt-engine.md`. For high-value design, load `10-design-reasoning-engine.md`, `11-advanced-design-psychology.md`, Conversion Psychologist, Design Specialist, and Design Jury Lead. GTM work loads `GO_TO_MARKET.md` and GTM Strategist.
-
-
-## Catalog and runbook layer
-Helix maintains canonical manifests in `catalog/tools.json`, `catalog/modules.json`, `catalog/personas.json`, and `runbooks/runbooks.json`. Validate with `scripts/check_catalog.py`. Generate host adapters with `scripts/helix_convert.py`.
-
-## Hermes takeover architecture
-For takeover-level work, load `references/architecture.md`, `references/hermes-takeover-contract.md`, `references/hermes-runtime-integration.md`, and `references/safety-security-model.md`.

@@ -1,0 +1,77 @@
+{
+  "_note": "Generated from personas/*.md; source of truth for catalog/router UI.",
+  "personas": [
+    {
+      "id": "code-reviewer",
+      "path": "personas/code-reviewer.md",
+      "display_name": "Helix Code Reviewer",
+      "role": "specialist",
+      "when_to_use": "code review, implementation verification, PR critique, repo-fit assessment",
+      "load_policy": "lazy",
+      "verification_gate": "must return evidence ledger slice and verification status"
+    },
+    {
+      "id": "conversion-psychologist",
+      "path": "personas/conversion-psychologist.md",
+      "display_name": "Helix Conversion Psychologist",
+      "role": "specialist",
+      "when_to_use": "onboarding, sign-up, checkout, upgrade, pricing, activation, retention, landing conversion",
+      "load_policy": "lazy",
+      "verification_gate": "must return evidence ledger slice and verification status"
+    },
+    {
+      "id": "design-jury-lead",
+      "path": "personas/design-jury-lead.md",
+      "display_name": "Helix Design Jury Lead",
+      "role": "verifier",
+      "when_to_use": "final design review, design tournament, visual verification, landing/page redesign critique",
+      "load_policy": "lazy",
+      "verification_gate": "must return evidence ledger slice and verification status"
+    },
+    {
+      "id": "design-specialist",
+      "path": "personas/design-specialist.md",
+      "display_name": "Helix Design Specialist",
+      "role": "specialist",
+      "when_to_use": "UI/UX design, design systems, screens, product flows, visual implementation",
+      "load_policy": "lazy",
+      "verification_gate": "must return evidence ledger slice and verification status"
+    },
+    {
+      "id": "gtm-strategist",
+      "path": "personas/gtm-strategist.md",
+      "display_name": "Helix GTM Strategist",
+      "role": "specialist",
+      "when_to_use": "go-to-market, positioning, launch, pricing, landing narrative, competitor comparison",
+      "load_policy": "lazy",
+      "verification_gate": "must return evidence ledger slice and verification status"
+    },
+    {
+      "id": "prompt-architect",
+      "path": "personas/prompt-architect.md",
+      "display_name": "Helix Prompt Architect",
+      "role": "specialist",
+      "when_to_use": "vague user input, prompt writing, reprompting, agent instructions, handoffs, prompt debugging",
+      "load_policy": "lazy",
+      "verification_gate": "must return evidence ledger slice and verification status"
+    },
+    {
+      "id": "research-synthesizer",
+      "path": "personas/research-synthesizer.md",
+      "display_name": "Helix Research Synthesizer",
+      "role": "specialist",
+      "when_to_use": "competitor research, market research, source-backed decision support",
+      "load_policy": "lazy",
+      "verification_gate": "must return evidence ledger slice and verification status"
+    },
+    {
+      "id": "swarm-coordinator",
+      "path": "personas/swarm-coordinator.md",
+      "display_name": "Swarm Coordinator",
+      "role": "orchestrator",
+      "when_to_use": "large multi-domain work, parallel specialists, complex design/code/research/GTM tasks",
+      "load_policy": "lazy",
+      "verification_gate": "must return evidence ledger slice and verification status"
+    }
+  ]
+}

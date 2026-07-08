@@ -1,0 +1,120 @@
+{
+  "_note": "Helix portable modules and load policy.",
+  "modules": [
+    {
+      "id": "core-contract",
+      "kind": "reference",
+      "path": "references/00-operating-contract.md",
+      "load_policy": "always",
+      "required_for": [
+        "all"
+      ]
+    },
+    {
+      "id": "intake",
+      "kind": "reference",
+      "path": "references/08-intake-sufficiency-prompt-restructuring.md",
+      "load_policy": "always",
+      "required_for": [
+        "all"
+      ]
+    },
+    {
+      "id": "reprompt",
+      "kind": "reference",
+      "path": "references/12-prompt-reprompt-engine.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "vague-input",
+        "prompting"
+      ]
+    },
+    {
+      "id": "design-reasoning",
+      "kind": "reference",
+      "path": "references/10-design-reasoning-engine.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "design"
+      ]
+    },
+    {
+      "id": "design-psychology",
+      "kind": "reference",
+      "path": "references/11-advanced-design-psychology.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "design",
+        "conversion",
+        "onboarding"
+      ]
+    },
+    {
+      "id": "swarm",
+      "kind": "reference",
+      "path": "references/09-swarm-orchestration.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "complex",
+        "parallel"
+      ]
+    },
+    {
+      "id": "gtm",
+      "kind": "doc",
+      "path": "GO_TO_MARKET.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "launch",
+        "positioning"
+      ]
+    },
+    {
+      "id": "persona-catalog",
+      "kind": "doc",
+      "path": "PERSONA_CATALOG.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "swarm",
+        "persona-selection"
+      ]
+    },
+    {
+      "id": "evidence",
+      "kind": "reference",
+      "path": "references/02-evidence-ledger.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "verification",
+        "claims"
+      ]
+    },
+    {
+      "id": "installer",
+      "kind": "script",
+      "path": "scripts/install_helix.sh",
+      "load_policy": "execute",
+      "required_for": [
+        "install"
+      ]
+    },
+    {
+      "id": "reprompt-helper",
+      "kind": "script",
+      "path": "scripts/helix_reprompt.py",
+      "load_policy": "execute",
+      "required_for": [
+        "reprompt"
+      ]
+    },
+    {
+      "id": "swarm-helper",
+      "kind": "script",
+      "path": "scripts/helix_swarm.py",
+      "load_policy": "execute",
+      "required_for": [
+        "swarm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "_note": "Machine-readable Helix activation recipes. Paths are repo-relative and validated by scripts/check_catalog.py.",
+  "runbooks": [
+    {
+      "slug": "ui-redesign-with-browser-proof",
+      "title": "UI redesign with browser proof",
+      "mode": "design",
+      "personas": [
+        "prompt-architect",
+        "research-synthesizer",
+        "conversion-psychologist",
+        "design-specialist",
+        "design-jury-lead"
+      ],
+      "references": [
+        "references/10-design-reasoning-engine.md",
+        "references/11-advanced-design-psychology.md",
+        "references/browser-visual-verification.md"
+      ],
+      "scripts": [
+        "scripts/helix_design_tournament.py"
+      ],
+      "verification": [
+        "desktop screenshot",
+        "mobile screenshot",
+        "console errors",
+        "overflow check",
+        "rubric score"
+      ]
+    },
+    {
+      "slug": "prompt-to-brief",
+      "title": "Vague prompt to professional brief",
+      "mode": "prompt",
+      "personas": [
+        "prompt-architect"
+      ],
+      "references": [
+        "references/12-prompt-reprompt-engine.md",
+        "references/08-intake-sufficiency-prompt-restructuring.md"
+      ],
+      "scripts": [
+        "scripts/helix_reprompt.py"
+      ],
+      "verification": [
+        "critical questions <= 3",
+        "success criteria present",
+        "verification plan present"
+      ]
+    },
+    {
+      "slug": "self-improvement-loop",
+      "title": "Helix self-improvement loop",
+      "mode": "meta",
+      "personas": [
+        "swarm-coordinator",
+        "research-synthesizer",
+        "code-reviewer"
+      ],
+      "references": [
+        "references/07-self-improvement.md",
+        "references/02-evidence-ledger.md"
+      ],
+      "scripts": [
+        "scripts/helix_self_improve.py"
+      ],
+      "verification": [
+        "baseline evidence",
+        "proposal",
+        "lesson",
+        "tests"
+      ]
+    },
+    {
+      "slug": "launch-gtm-plan",
+      "title": "Launch and go-to-market plan",
+      "mode": "gtm",
+      "personas": [
+        "gtm-strategist",
+        "research-synthesizer",
+        "prompt-architect"
+      ],
+      "references": [
+        "GO_TO_MARKET.md",
+        "research/agency-agents-dissection-2026-07.md"
+      ],
+      "scripts": [
+        "scripts/helix_reprompt.py"
+      ],
+      "verification": [
+        "ICP",
+        "wedge",
+        "channels",
+        "proof assets",
+        "metrics"
+      ]
+    }
+  ]
+}

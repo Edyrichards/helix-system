@@ -1,0 +1,110 @@
+{
+  "_note": "Helix-owned canonical tool/support manifest. Keep in sync with scripts/check_catalog.py and scripts/helix_convert.py.",
+  "tools": [
+    {
+      "id": "hermes",
+      "label": "Hermes",
+      "scope": [
+        "user"
+      ],
+      "format": "skill-plus-router-ready",
+      "installKind": "sync",
+      "detect": [
+        "hermes skills list"
+      ],
+      "dest": "~/.hermes/skills/helix-system",
+      "supports": [
+        "skills",
+        "plugins",
+        "delegation"
+      ]
+    },
+    {
+      "id": "claude-code",
+      "label": "Claude Code / Cursor Project",
+      "scope": [
+        "project"
+      ],
+      "format": "CLAUDE.md + .claude/skills",
+      "installKind": "project-files",
+      "detect": [
+        "CLAUDE.md",
+        ".claude/skills"
+      ],
+      "dest": "<project>/CLAUDE.md and <project>/.claude/skills",
+      "supports": [
+        "project-instructions",
+        "skills"
+      ]
+    },
+    {
+      "id": "cursor",
+      "label": "Cursor",
+      "scope": [
+        "project"
+      ],
+      "format": "CLAUDE.md + .claude/skills + markdown knowledge",
+      "installKind": "project-files",
+      "detect": [
+        ".cursor",
+        "CLAUDE.md"
+      ],
+      "dest": "<project>",
+      "supports": [
+        "project-rules",
+        "markdown-knowledge"
+      ]
+    },
+    {
+      "id": "codex",
+      "label": "Codex / OpenAI coding agents",
+      "scope": [
+        "project",
+        "user"
+      ],
+      "format": "AGENTS.md + markdown bundle",
+      "installKind": "generated-adapter",
+      "detect": [
+        "AGENTS.md"
+      ],
+      "dest": "<project>/AGENTS.md",
+      "supports": [
+        "instructions",
+        "prompts"
+      ]
+    },
+    {
+      "id": "windsurf",
+      "label": "Windsurf",
+      "scope": [
+        "project"
+      ],
+      "format": "markdown bundle",
+      "installKind": "generated-adapter",
+      "detect": [
+        ".windsurf"
+      ],
+      "dest": "<project>/.windsurf",
+      "supports": [
+        "rules",
+        "markdown-knowledge"
+      ]
+    },
+    {
+      "id": "generic-markdown",
+      "label": "Generic Markdown Bundle",
+      "scope": [
+        "project"
+      ],
+      "format": "portable markdown",
+      "installKind": "copy",
+      "detect": [],
+      "dest": "<project>/.helix",
+      "supports": [
+        "references",
+        "personas",
+        "runbooks"
+      ]
+    }
+  ]
+}
