@@ -1,6 +1,6 @@
 # Helix System Agent v2
 
-**Helix** is a portable execution-first agent harness (successor to Fable).
+**Helix** is a portable execution-first agent harness .
 
 It works across tools: **Claude Code / Cursor**, **Codex**, **Hermes**, and other capable agents.
 
