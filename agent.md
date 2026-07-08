@@ -72,7 +72,7 @@ Helix supports explicit agent swarms via `references/09-swarm-orchestration.md`.
 | If task involves | Load |
 |---|---|
 | Code/debug/repo | `coding.md`, `tool-use.md`, `verification.md`, `external-agent-patterns.md`; for first-pass existing repo setup/baseline also load `repo-baseline-setup.md` |
-| UI/UX/design | `design-system-first.md`, `charts-and-design-system-adapters.md`, `design-masterclass.md`, `ui-pro-max-preflight.md`, `design-rubric-v2.md`, `external-agent-patterns.md`, `ui-design-autonomy-repo-patterns.md`, plus `design.md`, `uiux-system-prompt.md`, `repo-design-section.md`, `parent-first-ui-iconography.md`, `verification.md`. For complete UI validation/revamp + north-star mockups, also load `ui-validation-revamp-workflow.md` |
+| UI/UX/design | `references/17-behavior-psychology-map.md`, `references/13-reference-scouting.md`, `references/20-reference-pattern-distillation.md`, `references/15-ui-pro-tournament.md`, `references/14-screenshot-learning-loop.md`, `references/19-behavioral-screenshot-critique.md`, `references/16-design-memory.md`, plus `design-system-first.md`, `charts-and-design-system-adapters.md`, `design-masterclass.md`, `ui-pro-max-preflight.md`, `design-rubric-v2.md`, `external-agent-patterns.md`, `ui-design-autonomy-repo-patterns.md`, `design.md`, `uiux-system-prompt.md`, `repo-design-section.md`, `parent-first-ui-iconography.md`, `verification.md`. For complete UI validation/revamp + north-star mockups, also load `ui-validation-revamp-workflow.md` |
 | Product strategy | `product-strategy.md`, `critique.md` |
 | Research/competitors/papers/current facts | `research.md`, `evidence-ledger.md`, `external-agent-patterns.md` |
 | Critique/review/compare outputs | `critique.md`, `test-suite.md` as needed |
@@ -84,8 +84,26 @@ Helix supports explicit agent swarms via `references/09-swarm-orchestration.md`.
 | UI variant tournament | run `scripts/helix_design_tournament.py` to score variants and create a contact-sheet artifact |
 | UI A/B evaluation | use `references/ui-ab-evaluation.md` and `references/ui-comparative-evaluation.md` to compare baseline vs Helix with identical prompt, saved raw outputs, rendered mobile/desktop screenshots, contact sheet, and design rubric |
 
+## UI Pro Loop: behavior + references + screenshots
+For substantial UI/UX work, Helix must not blindly modify existing design. It starts with:
+1. `references/17-behavior-psychology-map.md` — define user, current belief, desired belief, blockers, ethical psychology, and measurement.
+2. `references/13-reference-scouting.md` — gather proven references such as Mobbin/Page Flows/Screenlane/SaaSFrame/official systems when available and legitimate.
+3. `references/20-reference-pattern-distillation.md` — extract transferable patterns with do-not-copy notes.
+4. `references/15-ui-pro-tournament.md` — generate 3-5 variants, not one.
+5. `references/14-screenshot-learning-loop.md` + `references/19-behavioral-screenshot-critique.md` — render screenshots, critique actual pixels for behavior/visual craft, repair, and re-render.
+6. `references/16-design-memory.md` — save screenshot-backed project lessons under `design/helix-memory/`.
+
+Optional helper scripts:
+```bash
+python scripts/helix_ui_pro_loop.py --project-root /path/to/repo --surface landing --brief "..."
+python scripts/helix_behavior_score.py --project Drift --surface landing ... --out design/helix-memory/behavior-map.json
+python scripts/helix_visual_jury.py --variants-json variants.json --out visual-jury.json
+```
+
+Browser Harness (`browser-use/browser-harness`) is an optional Reference Scout backend for real-browser reference capture through CDP; use only with user-approved, legitimate browser access and distill patterns rather than copying proprietary screens.
+
 ## Design-system-first rule
-For substantial UI/design work, Helix now starts with intake questions or explicit assumptions, defines/updates a project design system first, and then makes screens/components/charts follow that system.
+For substantial UI/design work, Helix now starts with behavior map + reference board + explicit assumptions, defines/updates a project design system first, and then makes screens/components/charts follow that system.
 
 
 ## Intake, Sufficiency & Internal Prompt Restructuring

@@ -115,6 +115,124 @@
       "required_for": [
         "swarm"
       ]
+    },
+    {
+      "id": "reference-scouting",
+      "kind": "reference",
+      "path": "references/13-reference-scouting.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "design",
+        "ui-pro",
+        "reference-research",
+        "mobbin"
+      ]
+    },
+    {
+      "id": "screenshot-learning",
+      "kind": "reference",
+      "path": "references/14-screenshot-learning-loop.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "design",
+        "ui-pro",
+        "visual-verification",
+        "repair"
+      ]
+    },
+    {
+      "id": "ui-pro-tournament",
+      "kind": "reference",
+      "path": "references/15-ui-pro-tournament.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "design",
+        "ui-pro",
+        "tournament"
+      ]
+    },
+    {
+      "id": "design-memory",
+      "kind": "reference",
+      "path": "references/16-design-memory.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "design",
+        "learning",
+        "memory"
+      ]
+    },
+    {
+      "id": "behavior-map",
+      "kind": "reference",
+      "path": "references/17-behavior-psychology-map.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "design",
+        "conversion",
+        "onboarding",
+        "ui-pro"
+      ]
+    },
+    {
+      "id": "conversion-ux-models",
+      "kind": "reference",
+      "path": "references/18-conversion-ux-models.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "conversion",
+        "behavior",
+        "design"
+      ]
+    },
+    {
+      "id": "behavioral-screenshot-critique",
+      "kind": "reference",
+      "path": "references/19-behavioral-screenshot-critique.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "visual-critique",
+        "ui-pro",
+        "repair"
+      ]
+    },
+    {
+      "id": "reference-pattern-distillation",
+      "kind": "reference",
+      "path": "references/20-reference-pattern-distillation.md",
+      "load_policy": "lazy",
+      "required_for": [
+        "reference-research",
+        "mobbin",
+        "ui-pro"
+      ]
+    },
+    {
+      "id": "ui-pro-loop-helper",
+      "kind": "script",
+      "path": "scripts/helix_ui_pro_loop.py",
+      "load_policy": "execute",
+      "required_for": [
+        "ui-pro"
+      ]
+    },
+    {
+      "id": "visual-jury-helper",
+      "kind": "script",
+      "path": "scripts/helix_visual_jury.py",
+      "load_policy": "execute",
+      "required_for": [
+        "visual-jury"
+      ]
+    },
+    {
+      "id": "behavior-map-helper",
+      "kind": "script",
+      "path": "scripts/helix_behavior_score.py",
+      "load_policy": "execute",
+      "required_for": [
+        "behavior-map"
+      ]
     }
   ]
 }

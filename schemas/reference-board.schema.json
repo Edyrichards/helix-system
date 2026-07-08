@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Helix Reference Board",
+  "type": "object",
+  "required": [
+    "project",
+    "surface",
+    "references",
+    "derived_principles"
+  ],
+  "properties": {
+    "project": {
+      "type": "string"
+    },
+    "surface": {
+      "type": "string"
+    },
+    "target_behavior": {
+      "type": "string"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "useful_pattern",
+          "adaptation",
+          "do_not_copy"
+        ],
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "app": {
+            "type": "string"
+          },
+          "screen": {
+            "type": "string"
+          },
+          "screenshot_path": {
+            "type": "string"
+          },
+          "useful_pattern": {
+            "type": "string"
+          },
+          "behavior_mechanism": {
+            "type": "string"
+          },
+          "adaptation": {
+            "type": "string"
+          },
+          "do_not_copy": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "derived_principles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

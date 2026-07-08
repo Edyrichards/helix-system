@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://helix.local/schemas/behavior-map.schema.json",
+  "title": "Helix Behavior Map",
+  "type": "object",
+  "required": [
+    "project",
+    "surface",
+    "target_user",
+    "current_belief",
+    "desired_belief",
+    "primary_action",
+    "blockers",
+    "psychology_strategy",
+    "measurement_signals"
+  ],
+  "properties": {
+    "project": {
+      "type": "string"
+    },
+    "surface": {
+      "type": "string"
+    },
+    "target_user": {
+      "type": "string"
+    },
+    "trigger": {
+      "type": "string"
+    },
+    "current_emotional_state": {
+      "type": "string"
+    },
+    "current_belief": {
+      "type": "string"
+    },
+    "desired_belief": {
+      "type": "string"
+    },
+    "primary_action": {
+      "type": "string"
+    },
+    "secondary_action": {
+      "type": "string"
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "psychology_models": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "psychology_strategy": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "above_fold_requirement": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "measurement_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

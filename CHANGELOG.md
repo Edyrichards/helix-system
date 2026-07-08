@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-07-08 — UI Pro behavior/reference/screenshot learning loop
+
+- Added mandatory behavior psychology mapping for serious UI/UX work.
+- Added reference scouting and pattern distillation protocols for Mobbin/Page Flows/Screenlane/proven design references without copying proprietary screens.
+- Added screenshot learning, behavioral screenshot critique, UI Pro tournament, and design memory modules.
+- Added schemas for behavior maps, reference boards, behavioral critiques, and design lessons.
+- Added helper scripts: `helix_ui_pro_loop.py`, `helix_behavior_score.py`, and `helix_visual_jury.py`.
+- Added Browser Harness assessment as optional Reference Scout backend.
+- Wired UI Pro loop into `SKILL.md`, `agent.md`, catalogs, runbooks, README, INSTALL, and install verification.
+
 ## Unreleased
 
 - Added catalog manifests for tools, modules, personas, and runbooks.

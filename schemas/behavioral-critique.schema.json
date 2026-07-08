@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Helix Behavioral Screenshot Critique",
+  "type": "object",
+  "required": [
+    "screenshot_path",
+    "viewport",
+    "behavioral_read",
+    "visible_blockers",
+    "repair_priorities",
+    "expected_impact"
+  ],
+  "properties": {
+    "screenshot_path": {
+      "type": "string"
+    },
+    "viewport": {
+      "type": "string"
+    },
+    "five_second_understanding": {
+      "type": "string"
+    },
+    "anxiety_reduced": {
+      "type": "string"
+    },
+    "behavioral_read": {
+      "type": "string"
+    },
+    "visible_blockers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reference_pattern_used": {
+      "type": "string"
+    },
+    "repair_priorities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_impact": {
+      "type": "string"
+    },
+    "score": {
+      "type": "number"
+    }
+  }
+}

@@ -60,6 +60,13 @@ Then follow the section for your tool.
    - Especially: `helix-skill-system.md`, `helix-coding-layer.md`, `helix-design-layer.md`, `helix-verification-layer.md`, `helix-handoff-layer.md`
 
 4. For strong design/onboarding work, also load:
+   - `references/17-behavior-psychology-map.md`
+   - `references/13-reference-scouting.md`
+   - `references/20-reference-pattern-distillation.md`
+   - `references/15-ui-pro-tournament.md`
+   - `references/14-screenshot-learning-loop.md`
+   - `references/19-behavioral-screenshot-critique.md`
+   - `references/16-design-memory.md`
    - `references/ux-psychology-principles.md`
    - `references/design-masterclass.md`
    - `references/ui-design-autonomy-repo-patterns.md`
@@ -114,6 +121,12 @@ python scripts/helix_design_research.py --limit 15
 python scripts/helix_live_design_analyzer.py \
   --urls "https://example.com/onboarding" \
   --flow onboarding
+
+# UI Pro Loop workspace
+python scripts/helix_ui_pro_loop.py \
+  --project-root /path/to/your-project \
+  --surface landing \
+  --brief "Improve onboarding/landing using behavior map, references, screenshots, and repair loops"
 
 # UI variant tournament with real screenshots
 python scripts/helix_design_tournament.py --brief "..." --variants-json ...

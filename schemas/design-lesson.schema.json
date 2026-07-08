@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Helix Design Lesson",
+  "type": "object",
+  "required": [
+    "title",
+    "context",
+    "evidence_paths",
+    "problem_observed",
+    "repair_or_rule",
+    "reusable_rule",
+    "applicability"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "context": {
+      "type": "string"
+    },
+    "evidence_paths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "problem_observed": {
+      "type": "string"
+    },
+    "repair_or_rule": {
+      "type": "string"
+    },
+    "before_after_effect": {
+      "type": "string"
+    },
+    "reusable_rule": {
+      "type": "string"
+    },
+    "anti_pattern_avoided": {
+      "type": "string"
+    },
+    "applicability": {
+      "type": "string"
+    },
+    "review_note": {
+      "type": "string"
+    }
+  }
+}

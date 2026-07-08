@@ -30,7 +30,8 @@ Aliases still accepted: `helix`, `helix-system`, `helix-agent`.
 
 ## Key Capabilities
 
-- **Design-system-first UI/UX work** — starts with tokens + DESIGN.md before screens.
+- **UI Pro Loop** — behavior map → proven references (Mobbin/Page Flows/etc. when available) → pattern distillation → 3-5 variants → screenshots → behavioral/visual jury → repair loop → design memory.
+- **Design-system-first UI/UX work** — starts with behavior, references, tokens + DESIGN.md before screens.
 - **UI Autonomy Research & Tournaments**:
   - `scripts/helix_design_research.py` — ranks GitHub repos for screenshot-to-code, Figma MCP, design systems, visual verification.
   - `scripts/helix_design_tournament.py` — runs variant tournaments with **real browser screenshots** (Playwright):
@@ -112,6 +113,14 @@ Its wedge is:
 - **Self-improvement**: lessons and meta-loops upgrade Helix itself.
 
 Key files:
+- `references/13-reference-scouting.md`
+- `references/14-screenshot-learning-loop.md`
+- `references/15-ui-pro-tournament.md`
+- `references/16-design-memory.md`
+- `references/17-behavior-psychology-map.md`
+- `references/18-conversion-ux-models.md`
+- `references/19-behavioral-screenshot-critique.md`
+- `references/20-reference-pattern-distillation.md`
 - `references/10-design-reasoning-engine.md`
 - `references/11-advanced-design-psychology.md`
 - `references/12-prompt-reprompt-engine.md`

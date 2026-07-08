@@ -15,17 +15,69 @@
       "references": [
         "references/10-design-reasoning-engine.md",
         "references/11-advanced-design-psychology.md",
-        "references/browser-visual-verification.md"
+        "references/browser-visual-verification.md",
+        "references/13-reference-scouting.md",
+        "references/14-screenshot-learning-loop.md",
+        "references/15-ui-pro-tournament.md",
+        "references/17-behavior-psychology-map.md",
+        "references/19-behavioral-screenshot-critique.md",
+        "references/20-reference-pattern-distillation.md"
       ],
       "scripts": [
-        "scripts/helix_design_tournament.py"
+        "scripts/helix_design_tournament.py",
+        "scripts/helix_ui_pro_loop.py",
+        "scripts/helix_visual_jury.py",
+        "scripts/helix_behavior_score.py"
       ],
       "verification": [
         "desktop screenshot",
         "mobile screenshot",
         "console errors",
         "overflow check",
-        "rubric score"
+        "rubric score",
+        "behavior map",
+        "reference board",
+        "behavioral screenshot critique",
+        "repair pass evidence",
+        "design lessons"
+      ]
+    },
+    {
+      "slug": "ui-pro-reference-learning-loop",
+      "title": "UI Pro reference, behavior, screenshot learning loop",
+      "mode": "design",
+      "personas": [
+        "prompt-architect",
+        "research-synthesizer",
+        "conversion-psychologist",
+        "design-specialist",
+        "design-jury-lead"
+      ],
+      "references": [
+        "references/17-behavior-psychology-map.md",
+        "references/13-reference-scouting.md",
+        "references/20-reference-pattern-distillation.md",
+        "references/15-ui-pro-tournament.md",
+        "references/14-screenshot-learning-loop.md",
+        "references/19-behavioral-screenshot-critique.md",
+        "references/16-design-memory.md",
+        "references/18-conversion-ux-models.md",
+        "references/browser-visual-verification.md"
+      ],
+      "scripts": [
+        "scripts/helix_ui_pro_loop.py",
+        "scripts/helix_behavior_score.py",
+        "scripts/helix_visual_jury.py",
+        "scripts/helix_design_tournament.py"
+      ],
+      "verification": [
+        "behavior map",
+        "reference board with do-not-copy notes",
+        "3-5 variants",
+        "desktop/mobile screenshots",
+        "behavioral + visual jury",
+        "at least one repair loop",
+        "lesson artifact"
       ]
     },
     {
